@@ -77,28 +77,26 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
                     Count = x.AggregateCount
                 }).ToList();
             }
-
-            var multiListItem = Context.Database.GetItem(dataBaseId);
-
-            Sitecore.Data.Fields.MultilistField multiListField = multiListItem.Fields["ProductList"];
-            List<Item> items = new List<Item>();
-
-            if (multiListField != null)
+            foreach (var product in model.Products)
             {
-                foreach (Item item in multiListField.GetItems())
+                var multiListItem = product.Product.Fields["Tags"];
+                Sitecore.Data.Fields.MultilistField multiListField = multiListItem;
+                List<Item> items = new List<Item>();
+                if (multiListField != null)
                 {
-                    items.Add(item);
+                    foreach (Item item in multiListField.GetItems())
+                    {
+                        items.Add(item);
+                    }
                 }
+                product.TagsProduct = items;
             }
-            ProductsList productsList = new ProductsList(multiListItem);
-            productsList.ProductsItem = items;
-
             return View("~/Views/Renderings/Catalog/Products.cshtml", model);
         }
 
         public ActionResult Details()
         {
-            var query = $"/sitecore/content//*[@@templatename='Home Page']/*[@@templatename='Products']/*[@@name='{Context.Item.Name}']//*[@@templatename='Feedback']";
+            var query = $"/sitecore/content//*[@@templatename='Home Page']/*[@@templatename='Products']//*[@@name='{Context.Item.Name}']//*[@@templatename='Feedback']";
             var feedbackItems = Context.Item.Axes.SelectItems(query);
 
             List<Item> feedBackItems = new List<Item>();
@@ -106,10 +104,21 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
             {
                 feedBackItems.Add(item);
             }
-
+   
+            var multiListItem = Context.Item.Fields["Tags"];
+            Sitecore.Data.Fields.MultilistField multiListField = multiListItem;
+            List<Item> items = new List<Item>();
+            if (multiListField != null)
+            {
+                foreach (Item item in multiListField.GetItems())
+                {
+                    items.Add(item);
+                }
+            }
             ProductData productData = new ProductData
             {
-                Feedback = feedBackItems
+                Feedback = feedBackItems,
+                Tags = items
             };
 
             return View("~/Views/Renderings/Catalog/Details.cshtml", productData);

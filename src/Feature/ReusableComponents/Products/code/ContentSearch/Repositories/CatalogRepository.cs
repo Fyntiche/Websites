@@ -25,7 +25,7 @@ namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Repositorie
 
             if (!string.IsNullOrEmpty(args.Query))
             {
-                searchPredicate = searchPredicate.And(x => x.Title.Contains(args.Query) || x.Tags.Contains(args.Query));
+                searchPredicate = searchPredicate.And(x => x.Title.Contains(args.Query));
             }
 
             if (!string.IsNullOrEmpty(args.Category))

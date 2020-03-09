@@ -10,25 +10,47 @@
                     <h4 style="text-align :center;">@Html.Sitecore().Field("Price") $</h4>
                     <h5 class="card-title">@Html.Sitecore().Field("Short Description")</h5>
                     <p class="card-text">@Html.Sitecore().Field("Description")</p>
+                    <div class="p-b-45">
+                        <span class="s-text8 m-r-35">
+                            Tags:
+                            @if (Model.Tags.Count != 0)
+                            {
+                                foreach (var tagsProduct in Model.Tags)
+                                {
+                                    @Html.Sitecore().Field("Value", tagsProduct);
+                                    <span>; &nbsp;</span>
+
+                                }
+                            }
+
+                        </span>
+                        <br />
+                        <span class="s-text8">Category: @Html.Sitecore().Field("Category")</span>
+
+                    </div>
                 </div>
             </div>
             </br>
-            @foreach (Item item in Model.Feedback)
+            @if (Model.Feedback.Count != 0)
             {
-                <div class="bo13 p-l-29 m-l-9 p-b-10">
-                    <p class="p-b-11">
-                        @Html.Sitecore().Field("Text", item)
-                    </p>
 
-                    <span class="s-text7">
-                        - @Html.Sitecore().Field("Author", item)
-                    </span>
-                    <p class="s-text7">
-                        @Html.Sitecore().Field("Date", item, new { format = "dd/MM/yyyy HH:mm:ss" })
-                    </p>
+                foreach (Item item in Model.Feedback)
+                {
+                    <div class="bo13 p-l-29 m-l-9 p-b-10">
+                        <p class="p-b-11">
+                            @Html.Sitecore().Field("Text", item)
+                        </p>
 
-                </div>
-                <br>
+                        <span class="s-text7">
+                            - @Html.Sitecore().Field("Author", item)
+                        </span>
+                        <p class="s-text7">
+                            @Html.Sitecore().Field("Date", item, new { format = "dd/MM/yyyy HH:mm:ss" })
+                        </p>
+
+                    </div>
+                    <br>
+                }
             }
             <br />
             <br />
