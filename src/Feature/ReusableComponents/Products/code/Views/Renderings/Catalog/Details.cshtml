@@ -1,0 +1,37 @@
+﻿@using Sitecore.Data.Items
+@model Websites.Feature.ReusableComponents.Products.Models.ProductData
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="card mt-4">
+                <h3 style="text-align :center;" class="card-title">@Html.Sitecore().Field("Title")</h3>
+                @Html.Sitecore().Field("Image", new { nw = 600, mh = 800 })
+                <div class="card-body">
+                    <h4 style="text-align :center;">@Html.Sitecore().Field("Price") $</h4>
+                    <h5 class="card-title">@Html.Sitecore().Field("Short Description")</h5>
+                    <p class="card-text">@Html.Sitecore().Field("Description")</p>
+                </div>
+            </div>
+            </br>
+            @foreach (Item item in Model.Feedback)
+            {
+                <div class="bo13 p-l-29 m-l-9 p-b-10">
+                    <p class="p-b-11">
+                        @Html.Sitecore().Field("Text", item)
+                    </p>
+
+                    <span class="s-text7">
+                        - @Html.Sitecore().Field("Author", item)
+                    </span>
+                    <p class="s-text7">
+                        @Html.Sitecore().Field("Date", item, new { format = "dd/MM/yyyy HH:mm:ss" })
+                    </p>
+
+                </div>
+                <br>
+            }
+            <br />
+            <br />
+        </div>
+    </div>
+</div>

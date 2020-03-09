@@ -1,0 +1,42 @@
+﻿@using Sitecore.Data.Items
+@model Websites.Feature.ReusableComponents.TopProducts.Models.ProductsList
+
+<!-- Blog -->
+<section class="blog bgwhite p-t-94 p-b-65">
+    <div class="container">
+        <div class="sec-title p-b-52">
+            <h3 class="m-text5 t-center">
+                @Model.Title
+            </h3>
+        </div>
+
+        <div class="row">
+            @foreach (Item item in Model.ProductsItem)
+            {
+                if (item != null)
+                {
+                    <div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+                        <!-- Block3 -->
+                        <div class="block3">
+                            <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="block3-img dis-block hov-img-zoom">
+                                @Html.Sitecore().Field("Image", item, new { mw = 720, mh = 539 })
+                            </a>
+
+                            <div class="block3-txt p-t-14">
+                                <h4 class="p-b-7">
+                                    <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="m-text11">
+                                        @Html.Sitecore().Field("Title", item)
+                                    </a>
+                                </h4>
+
+                                <p class="s-text8 p-t-16">
+                                    @Html.Sitecore().Field("Description", item)
+                                </p>
+                                <span class="s-text6">Price: </span> <span class="s-text7">@Html.Sitecore().Field("Price", item)</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }    
+    </div>
+</section>

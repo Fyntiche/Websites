@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coniguration", "Coniguration", "{D94A3A44-AA6E-4FFB-9F9A-312F5384E66B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{EAB95137-CC77-4EAF-A95A-E9EBADE2A766}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{A647E43E-00EE-45EB-96DC-E351985C3E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{F1779BE4-C9F0-46A7-9F2F-BE10C1CF2C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shop", "Shop", "{34E184E9-1320-46E1-8B73-2E21F381B1D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Project.Shop", "src\Project\Shop\code\Websites.Project.Shop.csproj", "{C1AEE740-099B-4641-B714-C73A14150EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReusableComponents", "ReusableComponents", "{8C894CB8-F7CE-4F30-A665-65FD5DA91597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{1193E61B-492B-4277-9D02-89DB111B7445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.Navigation", "src\Feature\ReusableComponents\Navigation\code\Websites.Feature.ReusableComponents.Navigation.csproj", "{2901FBA3-ADDB-4D15-9E89-25035E738FC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Carousel", "Carousel", "{A1F933D9-20B7-4A24-B402-5D9065DF288B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.ReusableComponents.Carousel", "src\Feature\ReusableComponents\Carousel\code\Websites.ReusableComponents.Carousel.csproj", "{81730633-CA69-4689-BBB1-C49D57723CC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HeroBanner", "HeroBanner", "{131B7F45-8E72-4D3B-B1C5-1368A66566FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.HeroBanner", "src\Feature\ReusableComponents\HeroBanner\code\Websites.Feature.ReusableComponents.HeroBanner.csproj", "{1FA7E132-DF67-4461-AE66-22739A57F036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{7036839E-EC07-4788-8F7E-863B3ED907D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.Products", "src\Feature\ReusableComponents\Products\code\Websites.Feature.ReusableComponents.Products.csproj", "{DBDB8140-73B6-461A-B04B-C5EB876BFFD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopProducts", "TopProducts", "{9029C8FA-51FE-4083-ACCF-60CE144D0CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.TopProducts", "src\Feature\ReusableComponents\TopProducts\code\Websites.Feature.ReusableComponents.TopProducts.csproj", "{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1AEE740-099B-4641-B714-C73A14150EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AEE740-099B-4641-B714-C73A14150EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AEE740-099B-4641-B714-C73A14150EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AEE740-099B-4641-B714-C73A14150EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2901FBA3-ADDB-4D15-9E89-25035E738FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2901FBA3-ADDB-4D15-9E89-25035E738FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2901FBA3-ADDB-4D15-9E89-25035E738FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2901FBA3-ADDB-4D15-9E89-25035E738FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81730633-CA69-4689-BBB1-C49D57723CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81730633-CA69-4689-BBB1-C49D57723CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81730633-CA69-4689-BBB1-C49D57723CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81730633-CA69-4689-BBB1-C49D57723CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA7E132-DF67-4461-AE66-22739A57F036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA7E132-DF67-4461-AE66-22739A57F036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA7E132-DF67-4461-AE66-22739A57F036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA7E132-DF67-4461-AE66-22739A57F036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34E184E9-1320-46E1-8B73-2E21F381B1D7} = {F1779BE4-C9F0-46A7-9F2F-BE10C1CF2C13}
+		{C1AEE740-099B-4641-B714-C73A14150EE7} = {34E184E9-1320-46E1-8B73-2E21F381B1D7}
+		{8C894CB8-F7CE-4F30-A665-65FD5DA91597} = {EAB95137-CC77-4EAF-A95A-E9EBADE2A766}
+		{1193E61B-492B-4277-9D02-89DB111B7445} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{2901FBA3-ADDB-4D15-9E89-25035E738FC6} = {1193E61B-492B-4277-9D02-89DB111B7445}
+		{A1F933D9-20B7-4A24-B402-5D9065DF288B} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{81730633-CA69-4689-BBB1-C49D57723CC3} = {A1F933D9-20B7-4A24-B402-5D9065DF288B}
+		{131B7F45-8E72-4D3B-B1C5-1368A66566FF} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{1FA7E132-DF67-4461-AE66-22739A57F036} = {131B7F45-8E72-4D3B-B1C5-1368A66566FF}
+		{7036839E-EC07-4788-8F7E-863B3ED907D7} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7} = {7036839E-EC07-4788-8F7E-863B3ED907D7}
+		{9029C8FA-51FE-4083-ACCF-60CE144D0CC7} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA} = {9029C8FA-51FE-4083-ACCF-60CE144D0CC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {008B6E12-9018-4DC3-A6D8-8F850BE776CE}
+	EndGlobalSection
+EndGlobal

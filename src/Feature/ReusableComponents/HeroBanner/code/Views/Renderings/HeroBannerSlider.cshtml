@@ -1,0 +1,26 @@
+﻿@using Sitecore.Data.Items
+@model Websites.Feature.ReusableComponents.HeroBanner.Models.HeroBannerModel
+
+@if (Model != null)
+{
+    <!-- Slide1 -->
+    <section class="slide1">
+        <div class="wrap-slick1">
+            <div class="slick1">
+                @foreach (Item item in Model.Items)
+                {
+                    if (item != null)
+                    {
+                        <div class="item-slick1 item2-slick1">
+                            @Html.Sitecore().Field("Image", item, new { mw = 1920, mh = 570 })
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <p>Datasource is not defined</p>
+}

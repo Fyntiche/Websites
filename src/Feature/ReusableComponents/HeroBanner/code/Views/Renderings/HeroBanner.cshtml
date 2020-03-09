@@ -1,0 +1,34 @@
+﻿@model Websites.Feature.ReusableComponents.HeroBanner.Models.HeroBannerModel
+
+@if (Model != null)
+{
+    <section class="bgwhite p-t-66 p-b-38">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-b-30">
+                    <div class="hov-img-zoom">
+                        @Html.Sitecore().Field("Image", new { w = 190, h = 230 })
+                    </div>
+                </div>
+
+                <div class="col-md-8 p-b-30">
+                    <h3 class="m-text26 p-t-15 p-b-16">
+                        @Model.Title
+                    </h3>
+
+                    <p class="p-b-28">
+                    <p style="text-align : @Model.TextAlign">@Model.Description</p>
+                    </p>
+
+                    <div class="p-l-29 m-l-9 p-b-10">
+                        <p style="text-align:right">@Model.Link</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <p>Datasource is not defined</p>
+}

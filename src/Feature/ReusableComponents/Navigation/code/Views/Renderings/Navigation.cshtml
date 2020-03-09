@@ -1,0 +1,12 @@
+﻿@model Websites.Feature.ReusableComponents.Navigation.Models.MenuListModel
+    <ul class="main_menu">
+        @foreach (var item in Model.MenuList)
+        {
+        <li>
+            <a href="@item.Url"> @item.Title</a>
+            
+        </li>
+
+        }
+
+    </ul>
