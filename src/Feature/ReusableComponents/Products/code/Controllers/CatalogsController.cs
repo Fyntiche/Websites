@@ -42,7 +42,7 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
             {
                 Query = query,
                 Category = category,
-                Tag = tags,
+                Tags = tags.Split(new char[] { ',' }),
                 Page = pageInt == 0 ? 1 : pageInt,
                 Size = Size
             };
@@ -77,19 +77,11 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
                     Count = x.AggregateCount
                 }).ToList();
             }
+
             foreach (var product in model.Products)
             {
                 var multiListItem = product.Product.Fields["Tags"];
-                Sitecore.Data.Fields.MultilistField multiListField = multiListItem;
-                List<Item> items = new List<Item>();
-                if (multiListField != null)
-                {
-                    foreach (Item item in multiListField.GetItems())
-                    {
-                        items.Add(item);
-                    }
-                }
-                product.TagsProduct = items;
+                product.TagsProduct = MultiListItems(multiListItem);
             }
             return View("~/Views/Renderings/Catalog/Products.cshtml", model);
         }
@@ -106,6 +98,17 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
             }
    
             var multiListItem = Context.Item.Fields["Tags"];
+            ProductData productData = new ProductData
+            {
+                Feedback = feedBackItems,
+                Tags = MultiListItems(multiListItem)
+            };
+
+            return View("~/Views/Renderings/Catalog/Details.cshtml", productData);
+        }
+
+        private List<Item> MultiListItems(Sitecore.Data.Fields.Field multiListItem)
+        {
             Sitecore.Data.Fields.MultilistField multiListField = multiListItem;
             List<Item> items = new List<Item>();
             if (multiListField != null)
@@ -115,15 +118,7 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
                     items.Add(item);
                 }
             }
-            ProductData productData = new ProductData
-            {
-                Feedback = feedBackItems,
-                Tags = items
-            };
-
-            return View("~/Views/Renderings/Catalog/Details.cshtml", productData);
+            return items;
         }
-
-        
     }
 }

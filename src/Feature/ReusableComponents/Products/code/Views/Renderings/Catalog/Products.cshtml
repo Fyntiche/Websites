@@ -131,7 +131,7 @@
                 <div class="pagination flex-m flex-w p-t-26">
                     @for (int page = 1; page <= (Model.TotalSearchCount / Model.Sizepage) + 1; page++)
                     {
-                        <a href="/Products?page=@page" class="item-pagination flex-c-m trans-0-4">@page</a>
+                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(Sitecore.Context.Item)?page=@page" class="item-pagination flex-c-m trans-0-4">@page</a>
                     }
 
 

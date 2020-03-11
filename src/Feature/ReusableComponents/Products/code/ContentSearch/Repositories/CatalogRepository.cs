@@ -33,9 +33,14 @@ namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Repositorie
                 searchPredicate = searchPredicate.And(x => x.Category.Equals(args.Category));
             }
 
-            if (!string.IsNullOrEmpty(args.Tag))
+            if (!string.IsNullOrEmpty(args.Tags.First()))
             {
-                searchPredicate = searchPredicate.And(x => x.Tags.Contains(args.Tag));
+                var temp = PredicateBuilder.True<ProductSearchResultItem>(); ;
+                foreach (var tag in args.Tags)
+                {
+                   temp = searchPredicate.And(x => x.Tags.Contains(tag));
+                }
+                searchPredicate = temp;
             }
 
             var result = Context.GetQueryable<ProductSearchResultItem>()
