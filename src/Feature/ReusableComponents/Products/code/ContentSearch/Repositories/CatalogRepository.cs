@@ -4,6 +4,7 @@ using Websites.Feature.ReusableComponents.Products.ContentSearch.SearchTypes;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
+using Sitecore.ContentSearch.SearchTypes;
 
 namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Repositories
 {
@@ -21,26 +22,42 @@ namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Repositorie
 
         public SearchResults<ProductSearchResultItem> Get(CatalogQueryArgs args)
         {
+
             var searchPredicate = PredicateBuilder.True<ProductSearchResultItem>();
 
             if (!string.IsNullOrEmpty(args.Query))
             {
-                searchPredicate = searchPredicate.And(x => x.Title.Contains(args.Query));
+                searchPredicate = searchPredicate.And(x => x.Title.Contains(args.Query) 
+                    || x.Tags.Contains(args.Query) 
+                    || x.Category.Contains(args.Query)
+                    || x.ShortDescription.Contains(args.Query)
+                    || x.Description.Contains(args.Query)
+                    );
             }
 
-            if (!string.IsNullOrEmpty(args.Category))
+
+
+            if (args.Categories!= null)
             {
-                searchPredicate = searchPredicate.And(x => x.Category.Equals(args.Category));
+                foreach (var category in args.Categories)
+                {
+                    searchPredicate = searchPredicate.Or(x => x.Category.Equals(category));
+                }
             }
 
-            if (!string.IsNullOrEmpty(args.Tags.First()))
+            if (args.Tags!=null)
             {
-                var temp = PredicateBuilder.True<ProductSearchResultItem>(); ;
                 foreach (var tag in args.Tags)
                 {
-                   temp = searchPredicate.And(x => x.Tags.Contains(tag));
+                    searchPredicate = searchPredicate.And(x => x.Tags.Contains(tag));
                 }
-                searchPredicate = temp;
+            }
+            
+
+
+            if (!string.IsNullOrEmpty(args.Language))
+            {
+                searchPredicate = searchPredicate.And(x => x.Language.Equals(args.Language));
             }
 
             var result = Context.GetQueryable<ProductSearchResultItem>()

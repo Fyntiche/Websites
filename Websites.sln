@@ -37,9 +37,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TopProducts", "TopProducts"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.TopProducts", "src\Feature\ReusableComponents\TopProducts\code\Websites.Feature.ReusableComponents.TopProducts.csproj", "{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NumberOfProductsPage", "NumberOfProductsPage", "{31B06B4D-EE9B-45D9-B66A-48A1774C4D3F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SocialNetworks", "SocialNetworks", "{6DEB96ED-5C84-4EA2-BC94-565734A54C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.NumberOfProductsPage", "src\Feature\ReusableComponents\NumberOfProductsPage\code\Websites.Feature.ReusableComponents.NumberOfProductsPage.csproj", "{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Feature.ReusableComponents.SocialNetworks", "src\Feature\ReusableComponents\SocialNetworks\code\Websites.Feature.ReusableComponents.SocialNetworks.csproj", "{D3EAB7CC-95DB-44B0-A874-00937A51ED08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{D174A658-5399-4795-94A9-0CBFEF07BEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Websites.Project.Blog", "src\Project\Blog\code\Websites.Project.Blog.csproj", "{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +75,14 @@ Global
 		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EAB7CC-95DB-44B0-A874-00937A51ED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EAB7CC-95DB-44B0-A874-00937A51ED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EAB7CC-95DB-44B0-A874-00937A51ED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EAB7CC-95DB-44B0-A874-00937A51ED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,8 +101,10 @@ Global
 		{DBDB8140-73B6-461A-B04B-C5EB876BFFD7} = {7036839E-EC07-4788-8F7E-863B3ED907D7}
 		{9029C8FA-51FE-4083-ACCF-60CE144D0CC7} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
 		{4DE8D703-2D40-4E09-AFC6-02499F62DCAA} = {9029C8FA-51FE-4083-ACCF-60CE144D0CC7}
-		{31B06B4D-EE9B-45D9-B66A-48A1774C4D3F} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
-		{BF92E4AA-F5E2-42EF-8CCD-756AF8A05FC0} = {31B06B4D-EE9B-45D9-B66A-48A1774C4D3F}
+		{6DEB96ED-5C84-4EA2-BC94-565734A54C6C} = {8C894CB8-F7CE-4F30-A665-65FD5DA91597}
+		{D3EAB7CC-95DB-44B0-A874-00937A51ED08} = {6DEB96ED-5C84-4EA2-BC94-565734A54C6C}
+		{D174A658-5399-4795-94A9-0CBFEF07BEF8} = {F1779BE4-C9F0-46A7-9F2F-BE10C1CF2C13}
+		{94BE87E0-2A16-4806-AFDF-5A11D54D1B97} = {D174A658-5399-4795-94A9-0CBFEF07BEF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {008B6E12-9018-4DC3-A6D8-8F850BE776CE}

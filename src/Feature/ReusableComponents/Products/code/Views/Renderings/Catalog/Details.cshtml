@@ -1,4 +1,6 @@
 ﻿@using Sitecore.Data.Items
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Extensions
 @model Websites.Feature.ReusableComponents.Products.Models.ProductData
 <div class="container">
     <div class="row">
@@ -11,22 +13,34 @@
                     <h5 class="card-title">@Html.Sitecore().Field("Short Description")</h5>
                     <p class="card-text">@Html.Sitecore().Field("Description")</p>
                     <div class="p-b-45">
-                        <span class="s-text8 m-r-35">
-                            Tags:
-                            @if (Model.Tags.Count != 0)
-                            {
-                                foreach (var tagsProduct in Model.Tags)
+
+                        @using (Html.EditFrame(
+                            dataSource: @RenderingContext.Current.ContextItem.ID.ToString(),
+                            buttons: "Taxonomies",
+                            title: "Taxonomies",
+                            tooltip: "Edit Taxonomies",
+                            cssClass: string.Empty,
+                            parameters: null))
+                        {
+                            <span class="s-text8 m-r-35">
+                                Tags:
+                                @if (Model.Tags.Count != 0)
                                 {
-                                    @Html.Sitecore().Field("Value", tagsProduct);
-                                    <span>; &nbsp;</span>
+                                    foreach (var tagsProduct in Model.Tags)
+                                    {
+                                        @Html.Sitecore().Field("Value", tagsProduct);
+                                        <span>; &nbsp;</span>
 
+                                    }
                                 }
-                            }
 
-                        </span>
-                        <br />
-                        <span class="s-text8">Category: @Html.Sitecore().Field("Category")</span>
 
+
+                            </span>
+                            <br />
+                            <span class="s-text8">Category: @Html.Sitecore().Field("Category")</span>
+                        }
+                       
                     </div>
                 </div>
             </div>

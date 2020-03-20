@@ -1,0 +1,82 @@
+﻿@model Websites.Feature.ReusableComponents.Products.Models.CatalogViewModel
+<div id="Result">
+    <div id="PageResult">
+        <div class="flex-sb-m flex-w p-b-35">
+
+            <span class="s-text8 p-t-5 p-b-5">
+                @Model.PageFrom - @Model.PageBefore / @Model.TotalSearchResults;
+            </span>
+        </div>
+
+
+        <div class="row">
+            @if (Model.Products.Count != 0)
+            {
+                foreach (var item in Model.Products)
+                {
+                    <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                        <div class="block2">
+                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                <img src="@item.Image" alt="Image">
+                            </div>
+                            <div class="block2-txt p-t-20">
+                                <a href="@item.Url" class="block2-name dis-block s-text3 p-b-5">
+                                    <h5 class="card-title">@item.Title</h5>
+                                </a>
+                                <div class="p-b-45">
+                                    <span class="s-text8 m-r-35">
+                                        @Sitecore.Globalization.Translate.Text("Tags"):
+                                        @if (item.TagsProduct != null)
+                                        {
+                                            foreach (var tagsProduct in item.TagsProduct)
+                                            {
+                                                <span>@tagsProduct; </span>
+                                            }
+                                        }
+
+                                    </span>
+                                    <br />
+                                    <span class="s-text8">@Sitecore.Globalization.Translate.Text("Categories"): @item.Categories</span>
+                                    <br />
+                                    <span class="block2-price m-text6 p-r-5">
+                                        $@item.Price
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h3>@Sitecore.Globalization.Translate.Text("Products is not find")</h3>
+            }
+        </div>
+    </div>
+    <div class="pagination flex-m flex-w p-t-26 ">
+        <ul class="pagination">
+
+            @for (int i = 1; i <= Model.CountPage; i++)
+            {
+                if (i == 1 )
+                {
+                    <li class="page-item active" value="1"><a class="page-link" href="javascript:void(0)">1</a></li>
+                }
+                else
+                {
+                    <li class="page-item" value="@i"><a class="page-link" href="javascript:void(0)">@i</a></li>
+                }
+
+            }
+        </ul>
+
+
+
+    </div>
+
+
+
+
+
+</div>

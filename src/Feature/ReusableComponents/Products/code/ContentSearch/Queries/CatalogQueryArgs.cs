@@ -14,9 +14,11 @@ namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Queries
         }
 
         public string Query { get; set; }
-        public string Category { get; set; }
+        public string[] Categories { get; set; }
         public string[] Tags { get; set; }
         public int Page { get; set; }
         public int Size { get; set; }
+
+        public string Language { get; set; }
     }
 }

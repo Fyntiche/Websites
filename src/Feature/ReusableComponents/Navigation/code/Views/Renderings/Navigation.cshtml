@@ -1,12 +1,57 @@
 ﻿@model Websites.Feature.ReusableComponents.Navigation.Models.MenuListModel
-    <ul class="main_menu">
-        @foreach (var item in Model.MenuList)
-        {
+@{
+    var PageLink = Sitecore.Links.LinkManager.GetItemUrl(Sitecore.Context.Item);
+    var lang = Request.Params["sc_lang"];
+}
+<ul class="main_menu">
+    @foreach (var item in Model.MenuList)
+    {
         <li>
             <a href="@item.Url"> @item.Title</a>
-            
+
         </li>
 
-        }
+    }
 
-    </ul>
+    <div class="topbar-language rs1-select2">
+        <select class="selection-1" name="time" onchange="window.location.href=this.options[this.selectedIndex].value">
+            <option value="">@Sitecore.Globalization.Translate.Text("Language")</option>
+            @if (lang == "ru-Ru")
+            {
+                <option value="@PageLink?sc_lang=ru-Ru" selected> Ru</option>
+            }
+            else
+            {
+                <option value="@PageLink?sc_lang=ru-Ru"> Ru</option>
+            }
+            @if (lang == "en")
+            {
+                <option value="@PageLink?sc_lang=en" selected> En</option>
+            }
+            else
+            {
+                <option value="@PageLink?sc_lang=en"> En</option>
+            }
+
+        </select>
+
+    </div>
+
+
+</ul>
+
+
+<div id="dropDownSelect1"></div>
+<div id="dropDownSelect2"></div>
+
+<script type="text/javascript">
+    $(".selection-1").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $('#dropDownSelect1')
+    });
+
+    $(".selection-2").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $('#dropDownSelect2')
+    });
+</script>

@@ -1,0 +1,26 @@
+﻿@using Sitecore.Data.Items
+@model Websites.Feature.ReusableComponents.Products.Models.PagesListModel
+
+<h5 class="m-text14 p-b-5">
+	@Model.Title
+</h5>
+<div class="flex-sb-m flex-w p-b-35">
+	<div class="flex-w size-page">
+		<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+			<select class="selection-2 size-page" id="size">
+				@foreach (Item item in Model.PagesList)
+				{
+					if (item != null)
+					{
+
+						<option class="size-page"> @Html.Sitecore().Field("Value", item)  </option>
+					}
+				}
+			</select>
+		</div>
+	</div>
+</div>
+
+
+
+

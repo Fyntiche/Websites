@@ -8,7 +8,9 @@ namespace Websites.Feature.ReusableComponents.Products.Models
 {
     public class ProductData
     {
+
         public List<Item> Feedback { get; set; }
+
         public List<Item> Tags { get; set; }
     }
 }

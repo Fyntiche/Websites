@@ -71,6 +71,7 @@
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.IO.FileSystem.Primitives" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Security" />
@@ -126,9 +127,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
+    <Compile Include="ContentSearch\Fields\CategoryComputedField.cs" />
+    <Compile Include="Controllers\CatalogController.cs" />
     <Content Include="Views\Renderings\Catalog\Details.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Renderings\Catalog\Products.cshtml" />
+    <Content Include="Views\NumberOfProductsPage\Index.cshtml" />
+    <Content Include="Views\Renderings\Catalog\ProductViews.cshtml" />
+    <Content Include="Views\Renderings\Catalog\NoResult.cshtml" />
+    <Content Include="Views\Renderings\Catalog\PaginationResult.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
@@ -139,9 +146,12 @@
     <Compile Include="ContentSearch\Repositories\CatalogRepository.cs" />
     <Compile Include="ContentSearch\Repositories\ICatalogRepository.cs" />
     <Compile Include="ContentSearch\SearchTypes\ProductSearchResultItem.cs" />
-    <Compile Include="Controllers\CatalogsController.cs" />
+    <Compile Include="Controllers\NumberOfProductsPageController.cs" />
     <Compile Include="Models\CatalogViewModel.cs" />
+    <Compile Include="Models\FacetViewModel.cs" />
+    <Compile Include="Models\PagesListModel.cs" />
     <Compile Include="Models\ProductData.cs" />
+    <Compile Include="Models\ProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,327 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94BE87E0-2A16-4806-AFDF-5A11D54D1B97}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Websites.Project.Blog</RootNamespace>
+    <AssemblyName>Websites.Project.Blog</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44306</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=12.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.1.0\lib\net471\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.9.1.0\lib\net471\Sitecore.Mvc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="sysglobl" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zz.Blog.Sitecore.config" />
+    <Content Include="BlogFonts\flaticon\font\Flaticon.eot" />
+    <Content Include="BlogFonts\flaticon\font\Flaticon.ttf" />
+    <Content Include="BlogFonts\flaticon\font\Flaticon.woff" />
+    <Content Include="BlogFonts\flaticon\font\Flaticon.woff2" />
+    <Content Include="BlogFonts\flaticon\font\_flaticon.scss" />
+    <Content Include="BlogFonts\flaticon\license\license.pdf" />
+    <Content Include="BlogFonts\icomoon\fonts\icomoon.eot" />
+    <Content Include="BlogFonts\icomoon\fonts\icomoon.ttf" />
+    <Content Include="BlogFonts\icomoon\fonts\icomoon.woff" />
+    <Content Include="BlogFonts\icomoon\selection.json" />
+    <Content Include="BlogContent\bootstrap\bootstrap-grid.scss" />
+    <Content Include="BlogContent\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="BlogContent\bootstrap\bootstrap.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_alert.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_badge.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_buttons.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_caret.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_float.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_forms.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_gradients.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_grid.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_hover.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_image.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_list-group.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_lists.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_pagination.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_resize.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_size.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_table-row.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_transition.scss" />
+    <Content Include="BlogContent\bootstrap\mixins\_visibility.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_align.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_background.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_borders.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_display.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_embed.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_flex.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_float.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_position.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_shadows.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_sizing.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_spacing.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_text.scss" />
+    <Content Include="BlogContent\bootstrap\utilities\_visibility.scss" />
+    <Content Include="BlogContent\bootstrap\_alert.scss" />
+    <Content Include="BlogContent\bootstrap\_badge.scss" />
+    <Content Include="BlogContent\bootstrap\_breadcrumb.scss" />
+    <Content Include="BlogContent\bootstrap\_button-group.scss" />
+    <Content Include="BlogContent\bootstrap\_buttons.scss" />
+    <Content Include="BlogContent\bootstrap\_card.scss" />
+    <Content Include="BlogContent\bootstrap\_carousel.scss" />
+    <Content Include="BlogContent\bootstrap\_close.scss" />
+    <Content Include="BlogContent\bootstrap\_code.scss" />
+    <Content Include="BlogContent\bootstrap\_custom-forms.scss" />
+    <Content Include="BlogContent\bootstrap\_dropdown.scss" />
+    <Content Include="BlogContent\bootstrap\_forms.scss" />
+    <Content Include="BlogContent\bootstrap\_functions.scss" />
+    <Content Include="BlogContent\bootstrap\_grid.scss" />
+    <Content Include="BlogContent\bootstrap\_images.scss" />
+    <Content Include="BlogContent\bootstrap\_input-group.scss" />
+    <Content Include="BlogContent\bootstrap\_jumbotron.scss" />
+    <Content Include="BlogContent\bootstrap\_list-group.scss" />
+    <Content Include="BlogContent\bootstrap\_media.scss" />
+    <Content Include="BlogContent\bootstrap\_mixins.scss" />
+    <Content Include="BlogContent\bootstrap\_modal.scss" />
+    <Content Include="BlogContent\bootstrap\_nav.scss" />
+    <Content Include="BlogContent\bootstrap\_navbar.scss" />
+    <Content Include="BlogContent\bootstrap\_pagination.scss" />
+    <Content Include="BlogContent\bootstrap\_popover.scss" />
+    <Content Include="BlogContent\bootstrap\_print.scss" />
+    <Content Include="BlogContent\bootstrap\_progress.scss" />
+    <Content Include="BlogContent\bootstrap\_reboot.scss" />
+    <Content Include="BlogContent\bootstrap\_root.scss" />
+    <Content Include="BlogContent\bootstrap\_tables.scss" />
+    <Content Include="BlogContent\bootstrap\_tooltip.scss" />
+    <Content Include="BlogContent\bootstrap\_transitions.scss" />
+    <Content Include="BlogContent\bootstrap\_type.scss" />
+    <Content Include="BlogContent\bootstrap\_utilities.scss" />
+    <Content Include="BlogContent\bootstrap\_variables.scss" />
+    <Content Include="BlogContent\style.scss" />
+    <Content Include="BlogContent\_site-base.scss" />
+    <Content Include="BlogContent\_site-blocks.scss" />
+    <Content Include="BlogContent\_site-navbar.scss" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="BlogContent\aos.css" />
+    <Content Include="BlogContent\bootstrap-datepicker.css" />
+    <Content Include="BlogContent\bootstrap.min.css" />
+    <Content Include="BlogContent\bootstrap\bootstrap-grid.css" />
+    <Content Include="BlogContent\bootstrap\bootstrap-reboot.css" />
+    <Content Include="BlogContent\bootstrap\bootstrap.css" />
+    <Content Include="BlogContent\bootstrap\bootstrap.min.css" />
+    <Content Include="BlogContent\jquery-ui.css" />
+    <Content Include="BlogContent\magnific-popup.css" />
+    <Content Include="BlogContent\mediaelementplayer.css" />
+    <Content Include="BlogContent\owl.carousel.min.css" />
+    <Content Include="BlogContent\owl.theme.default.min.css" />
+    <Content Include="BlogContent\style.css" />
+    <Content Include="BlogFonts\flaticon\backup.txt" />
+    <Content Include="BlogFonts\flaticon\font\flaticon.css" />
+    <Content Include="BlogFonts\flaticon\font\flaticon.html" />
+    <Content Include="BlogFonts\flaticon\font\Flaticon.svg" />
+    <Content Include="BlogFonts\flaticon\font\_flaticon.css" />
+    <Content Include="BlogFonts\icomoon\demo-files\demo.css" />
+    <Content Include="BlogFonts\icomoon\demo-files\demo.js" />
+    <Content Include="BlogFonts\icomoon\demo.html" />
+    <Content Include="BlogFonts\icomoon\fonts\icomoon.svg" />
+    <Content Include="BlogFonts\icomoon\Read Me.txt" />
+    <Content Include="BlogFonts\icomoon\style.css" />
+    <Content Include="Blogimages\cebupacific-booking.jpg" />
+    <Content Include="Blogimages\hero_1.jpg" />
+    <Content Include="Blogimages\img_1.jpg" />
+    <Content Include="Blogimages\img_2.jpg" />
+    <Content Include="Blogimages\img_3.jpg" />
+    <Content Include="Blogimages\img_4.jpg" />
+    <Content Include="Blogimages\person_1.jpg" />
+    <Content Include="Blogimages\person_2.jpg" />
+    <Content Include="Blogimages\person_3.jpg" />
+    <Content Include="Blogimages\person_4.jpg" />
+    <Content Include="Blogimages\person_5.jpg" />
+    <Content Include="BlogScripts\aos.js" />
+    <Content Include="BlogScripts\bootstrap-datepicker.min.js" />
+    <Content Include="BlogScripts\bootstrap.min.js" />
+    <Content Include="BlogScripts\jquery-3.3.1.min.js" />
+    <Content Include="BlogScripts\jquery-migrate-3.0.1.min.js" />
+    <Content Include="BlogScripts\jquery-ui.js" />
+    <Content Include="BlogScripts\jquery.countdown.min.js" />
+    <Content Include="BlogScripts\jquery.magnific-popup.min.js" />
+    <Content Include="BlogScripts\jquery.stellar.min.js" />
+    <Content Include="BlogScripts\main.js" />
+    <Content Include="BlogScripts\mediaelement-and-player.min.js" />
+    <Content Include="BlogScripts\owl.carousel.min.js" />
+    <Content Include="BlogScripts\popper.min.js" />
+    <Content Include="BlogScripts\slick.min.js" />
+    <Content Include="Views\Blog\Layout\Default.cshtml" />
+    <Content Include="Views\Blog\Body\Body.cshtml" />
+    <Content Include="Views\Blog\Footer\Footer.cshtml" />
+    <Content Include="Views\Blog\Body\ContactUs.cshtml" />
+    <Content Include="Views\Blog\Body\AboutUs.cshtml" />
+    <None Include="Views\Web.config" />
+    <None Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Views\Blog\Header\Header.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26856</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44306/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

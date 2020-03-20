@@ -17,7 +17,7 @@ namespace Websites.Project.Shop.Controllers
             var dataBaseId = RenderingContext.Current.Rendering.DataSource;
             FooterCopyrightModel footerCopyright = new FooterCopyrightModel();
             footerCopyright.CopyrightItem = Context.Database.GetItem(dataBaseId);
-            return View("~/Views/Footer/Copyright.cshtml", footerCopyright);
+            return View("~/Views/Shop/Footer/Copyright.cshtml", footerCopyright);
         }
     }
 }

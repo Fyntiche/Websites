@@ -1,139 +1,140 @@
 ﻿@model Websites.Feature.ReusableComponents.Products.Models.CatalogViewModel
+
 <section class="bgwhite p-t-55 p-b-65">
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
                 <div class="leftbar p-r-20 p-r-0-sm">
-                    <!--  -->
 
-                    @using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Get))
-                    {
-                        @Html.Sitecore().FormHandler("Index", "CatalogsController")
-                        @Html.Sitecore().Placeholder("Page Numbers")
+                    @*@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Get))
+                        {
+                                @Html.Sitecore().FormHandler("Index", "CatalogsController")*@
+                    @Html.Sitecore().Placeholder("Page Numbers")
 
-                        <h4 class="m-text14 p-b-7">
-                            Categories
-                        </h4>
-                        <ul class="p-b-54" name="tags_list">
+                    <h4 class="m-text14 p-b-7">
+                        @Sitecore.Globalization.Translate.Text("Categories")
+                    </h4>
+                    <div class="SearchAjax">
+                        <ul class="p-b-54" name="categories_list">
                             @if (Model.Categories.Count != 0)
                             {
-                                foreach (var category in Model.Categories)
+                                for (int i = 0; i < Model.Categories.Count; i++)
                                 {
                                     <li class="p-t-4">
-                                        <input type="radio" name="category" value="@category.Title" />
-
-                                        @category.Title (@category.Count)
-
+                                        <input type="checkbox" name="facetCategory" value="@Model.Categories[i].Title" />
+                                        <span>@Model.Categories[i].Title </span>
                                     </li>
                                 }
                             }
                         </ul>
+
                         <h4 class="m-text14 p-b-7">
-                            Tags
+                            @Sitecore.Globalization.Translate.Text("Tags")
                         </h4>
 
                         <ul class="p-b-54" name="tags_list">
                             @if (Model.Tags.Count != 0)
                             {
-                                foreach (var tag in Model.Tags)
+                                for (int i = 0; i < Model.Tags.Count; i++)
                                 {
                                     <li class="p-t-4">
-                                        <input type="checkbox" name="tags" value="@tag.Title" />
-
-                                        @tag.Title (@tag.Count)
-
+                                        <input type="checkbox" name="facetTags" value="@Model.Tags[i].Title" />
+                                        <span>@Model.Tags[i].Title </span>
                                     </li>
                                 }
                             }
-
                         </ul>
 
-                        <div class="search-product pos-relative bo4 of-hidden">
-                            <input class="s-text7 size6 p-l-23 p-r-50" type="text" name="query" placeholder="Search Products...">
+                    </div>
+                    <div class="search-product pos-relative bo4 of-hidden">
+                        <input class="s-text7 size6 p-l-23 p-r-50" id="search" type="text" placeholder="@Sitecore.Globalization.Translate.Text("Search Products")...">
 
-                            <button class="flex-c-m size5 ab-r-m color2 color0-hov trans-0-4">
-                                <i class="fs-12 fa fa-search" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    }
-
-
-
-                    <div class="flex-sb-m flex-w p-t-16">
-                        <div class="w-size11">
-                            <!-- Button -->
-
-                            <a href="@Sitecore.Links.LinkManager.GetItemUrl(Sitecore.Context.Item)">
-                                <button class="flex-c-m size4 bg7 bo-rad-15 hov1 s-text14 trans-0-4">
-                                    Reset
-                                </button>
-                            </a>
-
-                        </div>
+                        <button class="flex-c-m size5 ab-r-m color2 color0-hov trans-0-4">
+                            <i class="fs-12 fa fa-search SearchAjax" aria-hidden="true"></i>
+                        </button>
                     </div>
                 </div>
+
+
             </div>
 
             <div class="col-sm-6 col-md-8 col-lg-9 p-b-50">
-                <!--  -->
-                <div class="flex-sb-m flex-w p-b-35">
+                <div id="Result">
+                    <div id="PageResult">
+                        <div class="flex-sb-m flex-w p-b-35">
 
-                    <span class="s-text8 p-t-5 p-b-5">
-                        Showing @Model.TotalSearchCount results
-                    </span>
-                </div>
+                            <span class="s-text8 p-t-5 p-b-5">
+                                @Model.PageFrom - @Model.PageBefore / @Model.TotalSearchResults;
+                            </span>
+                        </div>
 
-                <!-- Product -->
-                <div class="row">
-                    @if (Model.Products.Count != 0)
-                    {
-                        foreach (var item in Model.Products)
-                        {
-                            <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-                                <!-- Block2 -->
-                                <div class="block2">
-                                    <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-                                        @Html.Sitecore().Field("Image", item.Product, new { mw = 360, mh = 480 })
-                                    </div>
-                                    <div class="block2-txt p-t-20">
-                                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(item.Product)" class="block2-name dis-block s-text3 p-b-5">
-                                            <h5 class="card-title">@Html.Sitecore().Field("Title", item.Product)</h5>
-                                        </a>
-                                        <div class="p-b-45">
-                                            <span class="s-text8 m-r-35">
-                                                Tags:
-                                                @foreach (var tagsProduct in item.TagsProduct)
-                                                {
-                                                    @Html.Sitecore().Field("Value", tagsProduct);
-                                                    <span>; &nbsp;</span>
 
-                                                }
-                                            </span>
-                                            <br />
-                                            <span class="s-text8">Category: @Html.Sitecore().Field("Category", item.Product)</span>
-                                            <br />
-                                            <span class="block2-price m-text6 p-r-5">
-                                                $@Html.Sitecore().Field("Price", item.Product)
-                                            </span>
+                        <div class="row">
+                            @if (Model.Products.Count != 0)
+                            {
+                                foreach (var item in Model.Products)
+                                {
+                                    <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                                        <div class="block2">
+                                            <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                                <img src="@item.Image" alt="Image">
+                                            </div>
+                                            <div class="block2-txt p-t-20">
+                                                <a href="@item.Url" class="block2-name dis-block s-text3 p-b-5">
+                                                    <h5 class="card-title">@item.Title</h5>
+                                                </a>
+                                                <div class="p-b-45">
+                                                    <span class="s-text8 m-r-35">
+                                                        @Sitecore.Globalization.Translate.Text("Tags"):
+                                                        @if (item.TagsProduct != null)
+                                                        {
+                                                            foreach (var tagsProduct in item.TagsProduct)
+                                                            {
+                                                                <span>@tagsProduct; </span>
+                                                            }
+                                                        }
+
+                                                    </span>
+                                                    <br />
+                                                    <span class="s-text8">@Sitecore.Globalization.Translate.Text("Categories"): @item.Categories</span>
+                                                    <br />
+                                                    <span class="block2-price m-text6 p-r-5">
+                                                        $@item.Price
+                                                    </span>
+                                                </div>
+
+                                            </div>
                                         </div>
-
                                     </div>
-                                </div>
-                            </div>
-                        }
-                    }
-                    else
-                    {
-                        <h3>Products is not find</h3>
-                    }
-                </div>
-                <!-- Pagination -->
-                <div class="pagination flex-m flex-w p-t-26">
-                    @for (int page = 1; page <= (Model.TotalSearchCount / Model.Sizepage) + 1; page++)
-                    {
-                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(Sitecore.Context.Item)?page=@page" class="item-pagination flex-c-m trans-0-4">@page</a>
-                    }
+                                }
+                            }
+                            else
+                            {
+                                <h3>@Sitecore.Globalization.Translate.Text("Products is not find")</h3>
+                            }
+                        </div>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="pagination flex-m flex-w p-t-26 ">
+                        <ul class="pagination">
 
+                            @for (int i = 1; i <= Model.CountPage; i++)
+                            {
+                                if (i == 1)
+                                {
+                                    <li class="page-item active" value="1"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                }
+                                else
+                                {
+                                    <li class="page-item" value="@i"><a class="page-link" href="javascript:void(0)">@i</a></li>
+                                }
+
+                            }
+                        </ul>
+
+
+
+                    </div>
 
 
                 </div>
@@ -143,3 +144,6 @@
 </section>
 
 <div id="dropDownSelect2"></div>
+
+
+

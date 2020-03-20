@@ -14,16 +14,22 @@ namespace Websites.Feature.ReusableComponents.Products.ContentSearch.SearchTypes
         [IndexField("short_description")]
         public virtual string ShortDescription { get; set; }
 
-        [IndexField("category")]
+        [IndexField("product_category")]
         public virtual string Category { get; set; }
 
         [IndexField("tags_list")]
         public virtual string[] Tags { get; set; }
 
-        [IndexField("image")]
+        [IndexField("product_image")]
         public virtual string Image { get; set; }
 
         [IndexField("price")]
         public virtual string Price { get; set; }
+
+        [IndexField("_fullpath")]
+        public virtual string Url { get; set; }
+
+        [IndexField("_language")]
+        public string Language { get; set; }
     }
 }
