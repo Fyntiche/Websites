@@ -12,5 +12,7 @@ namespace Websites.Feature.ReusableComponents.Products.Models
         public List<Item> Feedback { get; set; }
 
         public List<Item> Tags { get; set; }
+
+        public string Category { get; set; }
     }
 }

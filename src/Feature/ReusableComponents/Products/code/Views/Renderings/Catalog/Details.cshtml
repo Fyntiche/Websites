@@ -22,23 +22,21 @@
                             cssClass: string.Empty,
                             parameters: null))
                         {
-                            <span class="s-text8 m-r-35">
-                                Tags:
-                                @if (Model.Tags.Count != 0)
+                        <span class="s-text8 m-r-35">
+                            @Sitecore.Globalization.Translate.Text("Tags"):
+                            @if (Model.Tags.Count != 0)
+                            {
+                                foreach (var tagsProduct in Model.Tags)
                                 {
-                                    foreach (var tagsProduct in Model.Tags)
-                                    {
-                                        @Html.Sitecore().Field("Value", tagsProduct);
-                                        <span>; &nbsp;</span>
+                                    @Html.Sitecore().Field("Value", tagsProduct);
+                                    <span>; &nbsp;</span>
 
-                                    }
                                 }
-
-
-
-                            </span>
+                            }
+                        </span>
                             <br />
-                            <span class="s-text8">Category: @Html.Sitecore().Field("Category")</span>
+                            <span class="s-text8">@Sitecore.Globalization.Translate.Text("Categories"):
+                        @Model.Category</span>
                         }
                        
                     </div>

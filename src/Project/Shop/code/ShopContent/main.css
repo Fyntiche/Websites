@@ -1659,7 +1659,7 @@ li.sale-noti > a {
   left: 12px;
 }
 
-.block2-labelsale::before {
+/*.block2-labelsale::before {
   background-color: #e65540;
   content: 'Sale';
 }
@@ -1667,7 +1667,7 @@ li.sale-noti > a {
 .block2-labelnew::before {
   background-color: #66a8a6;
   content: 'New';
-}
+}*/
 
 /* ------------------------------------ */
 .block2-overlay {

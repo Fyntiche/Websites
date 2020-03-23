@@ -7,7 +7,7 @@
 <div class="flex-sb-m flex-w p-b-35">
 	<div class="flex-w size-page">
 		<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
-			<select class="selection-2 size-page" id="size">
+			<select class="selection-2 size-page" id="size" OnChange="probaalert(this)">
 				@foreach (Item item in Model.PagesList)
 				{
 					if (item != null)

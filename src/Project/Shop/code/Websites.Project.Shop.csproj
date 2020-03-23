@@ -2867,11 +2867,13 @@
     <Content Include="Views\Shop\Footer\Copyright.cshtml" />
     <Content Include="Views\Shop\Body\ContactUs.cshtml" />
     <Content Include="Views\Shop\Layout\Default.cshtml" />
+    <Content Include="Views\Shop\Body\404.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\FooterCopyrightController.cs" />
+    <Compile Include="Events\ItemSavedHandler.cs" />
     <Compile Include="Models\FooterCopyrightModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

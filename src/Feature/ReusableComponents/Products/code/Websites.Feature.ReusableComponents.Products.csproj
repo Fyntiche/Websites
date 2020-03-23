@@ -44,6 +44,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.2.1.1\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>False</Private>
@@ -66,9 +72,13 @@
       <HintPath>..\..\..\..\..\packages\Sitecore.Mvc.9.1.0\lib\net471\Sitecore.Mvc.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.XConnect.DependencyInjection, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\packages\Sitecore.XConnect.DependencyInjection.9.1.0\lib\netstandard2.0\Sitecore.XConnect.DependencyInjection.dll</HintPath>
+    </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.Design" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IdentityModel" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.IO.FileSystem.Primitives" />
     <Reference Include="System.Management" />
@@ -126,6 +136,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\ServicesConfigurator.cs" />
     <Content Include="Content\Site.css" />
     <Compile Include="ContentSearch\Fields\CategoryComputedField.cs" />
     <Compile Include="Controllers\CatalogController.cs" />
@@ -147,6 +158,7 @@
     <Compile Include="ContentSearch\Repositories\ICatalogRepository.cs" />
     <Compile Include="ContentSearch\SearchTypes\ProductSearchResultItem.cs" />
     <Compile Include="Controllers\NumberOfProductsPageController.cs" />
+    <Compile Include="Models\CatalogModel.cs" />
     <Compile Include="Models\CatalogViewModel.cs" />
     <Compile Include="Models\FacetViewModel.cs" />
     <Compile Include="Models\PagesListModel.cs" />
@@ -163,7 +175,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Foundation\DependencyInjection\code\Websites.Foundation.DependencyInjection.csproj">
+      <Project>{d3bf5adf-2ce8-4096-b4c4-5297ea145ec8}</Project>
+      <Name>Websites.Foundation.DependencyInjection</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

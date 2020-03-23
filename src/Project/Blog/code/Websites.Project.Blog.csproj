@@ -266,6 +266,7 @@
     <Content Include="Views\Blog\Footer\Footer.cshtml" />
     <Content Include="Views\Blog\Body\ContactUs.cshtml" />
     <Content Include="Views\Blog\Body\AboutUs.cshtml" />
+    <Content Include="Views\Blog\Body\404.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
