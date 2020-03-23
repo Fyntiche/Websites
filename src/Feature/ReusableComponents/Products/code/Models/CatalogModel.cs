@@ -8,11 +8,13 @@ namespace Websites.Feature.ReusableComponents.Products.Models
 {
     public class CatalogModel
     {
-        private readonly ICatalogRepository _repository;
 
         public CatalogModel()
         {
         }
+
+
+        private readonly ICatalogRepository _repository;
 
         public CatalogModel(ICatalogRepository repository)
         {

@@ -2872,10 +2872,13 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\ExportFeedbacksCommand.cs" />
     <Compile Include="Controllers\FooterCopyrightController.cs" />
+    <Compile Include="CsvExport.cs" />
     <Compile Include="Events\ItemSavedHandler.cs" />
     <Compile Include="Models\FooterCopyrightModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\Commands\SmartPublishing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
