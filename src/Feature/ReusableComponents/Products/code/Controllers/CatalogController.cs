@@ -9,8 +9,7 @@ namespace Websites.Feature.ReusableComponents.Products.Controllers
 {
     public class CatalogController : Controller
     {
-
-        CatalogModel catalogModel = new CatalogModel();
+        readonly CatalogModel catalogModel = new CatalogModel();
 
         public ActionResult Index()
         {
