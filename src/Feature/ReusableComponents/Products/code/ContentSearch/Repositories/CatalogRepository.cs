@@ -5,9 +5,11 @@ using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.ContentSearch.SearchTypes;
+using Websites.Foundation.DependencyInjection;
 
 namespace Websites.Feature.ReusableComponents.Products.ContentSearch.Repositories
 {
+    [Service(typeof(ICatalogRepository))]
     public class CatalogRepository : ICatalogRepository
     {
         private readonly string IndexName = $"custom_{Sitecore.Context.Database.Name.ToLower()}_index";
