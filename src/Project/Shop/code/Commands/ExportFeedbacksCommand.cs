@@ -40,7 +40,7 @@ namespace Websites.Project.Shop.Commands
                 ChildExport["Date"] = DateUtil.IsoDateToDateTime(child.Fields["Date"].Value);
             }
             string tempfolder = MainUtil.MapPath(Settings.TempFolderPath);
-            string pathToFile = $@"{tempfolder}\{ItemUtil.ProposeValidItemName(item.Name)}ChildExport.csv";
+            string pathToFile = $@"{tempfolder}\{ItemUtil.ProposeValidItemName(item.Name)}-{Guid.NewGuid()}.csv";
             ChildExport.ExportToFile(pathToFile);
 
             Context.ClientPage.ClientResponse.Download(pathToFile);
