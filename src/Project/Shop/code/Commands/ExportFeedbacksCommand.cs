@@ -17,6 +17,7 @@ namespace Websites.Project.Shop.Commands
     public class ExportFeedbacksCommand : Command
     {
         private const string ProductTemplateID = "{959CDED3-F9F5-478B-A655-43D4C8B1CD73}";
+
         public override CommandState QueryState(CommandContext context)
         {
             if (context.Items.Length > 0 && context.Items[0].TemplateID.Equals(new ID(ProductTemplateID)))
@@ -25,6 +26,7 @@ namespace Websites.Project.Shop.Commands
             }
             return CommandState.Hidden;
         }
+
         public override void Execute(CommandContext context)
         {
             var item = context.Items.FirstOrDefault();

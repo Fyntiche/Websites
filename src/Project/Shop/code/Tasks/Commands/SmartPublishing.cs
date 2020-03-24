@@ -20,6 +20,7 @@ namespace Websites.Project.Shop.Tasks.Commands
              DateTime.Now);
             Sitecore.Publishing.Publisher publisher = new Sitecore.Publishing.Publisher(publishOptions);
 
+            // Publish children
             publisher.Options.Deep = true;
 
             publisher.Publish();
