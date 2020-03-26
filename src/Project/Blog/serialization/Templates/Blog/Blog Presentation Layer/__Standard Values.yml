@@ -1,0 +1,61 @@
+﻿---
+ID: "3aa81cb5-eb89-41fb-8aeb-0d786bb35781"
+Parent: "4546e156-e4a5-4b47-be92-7d1dadb9e92c"
+Template: "4546e156-e4a5-4b47-be92-7d1dadb9e92c"
+Path: /sitecore/templates/Project/Blog/Blog Presentation Layer/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A2F624D5-EFF2-44F9-9172-33F9B58453AB}">
+        <p
+          uid="{B70A0DA1-CDCE-4EB9-9262-3FA335C2BF96}"
+          key="Header"
+          md="{8D5443CF-07F1-4649-87EF-2F51B8262386}" />
+        <p
+          uid="{88ECAB19-1B43-4272-BAB9-36EDCEF329E8}"
+          key="Body"
+          md="{9CB60269-6896-4BE1-B401-975C86958F8B}" />
+        <p
+          uid="{39E16D65-500A-4697-80C2-F1D5234A9AD1}"
+          key="Footer"
+          md="{600E35C3-9420-4060-BA01-CBD8645A2EB9}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{E0F22149-45E3-45E0-BF68-DA71EFD618AA}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Social Networks"
+          uid="{5E504DF9-9EC3-4786-B1E2-B1655F70F06B}" />
+        <r
+          id="{07020007-AD36-4AB2-A779-A6347959B824}"
+          ph="Header"
+          uid="{A99287CC-98B8-491A-91B4-6846FCC31318}" />
+        <r
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          ph="Footer Copyright"
+          uid="{097DC854-6C29-4779-A9EA-A7502C0C5B81}" />
+        <r
+          id="{E7DBC923-821B-4E02-A72D-C4AE3E11A4B2}"
+          ph="Footer"
+          uid="{0306A38A-16BB-47AA-BBFA-D5E6E347B0D9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200317T061424Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,33 @@
+﻿---
+ID: "49d6b4d3-f4ce-474e-abc6-afc766fcdb35"
+Parent: "cd0d564c-e4aa-435d-ad49-e5f83d9463aa"
+Template: "3beb51c1-8b97-48f8-a81e-e738aa19e4dc"
+Path: /sitecore/content/Shop/Data/Taxonomies/Tags/Case
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "d673d4a8-ca8a-4e7d-b8fc-b774c8422044"
+    Hint: Value
+    Value: Case
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200305T163406Z
+- Language: "ru-RU"
+  Fields:
+  - ID: "d673d4a8-ca8a-4e7d-b8fc-b774c8422044"
+    Hint: Value
+    Value: Сумка
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170244Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

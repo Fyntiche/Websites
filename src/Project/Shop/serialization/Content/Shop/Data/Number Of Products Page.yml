@@ -1,0 +1,45 @@
+﻿---
+ID: "582f5bc9-25c0-48e3-924e-578822b2183a"
+Parent: "a8edcf2b-b461-4877-acc0-7b97ddd4f7d6"
+Template: "7b26c103-2d5e-4491-8f96-60dc5c01bf23"
+Path: /sitecore/content/Shop/Data/Number Of Products Page
+DB: master
+SharedFields:
+- ID: "348e6ed3-c424-416b-b9e8-f4d673009e27"
+  Hint: Pages
+  Type: Multilist
+  Value: |
+    {2538EFCF-2D00-4453-89CF-76E867A9EF27}
+    {F764CAE4-13F9-441F-9CE7-E6CD039F4B29}
+    {2DD4F4F6-D12C-4E13-BDD6-E0438848DC4B}
+    {B924F8D5-B17E-4CE5-AF5E-C2B467995D76}
+    {3BECD7B6-21CE-4410-91C8-5B44D77661C6}
+    {F72ED77B-F9FB-4536-9CB0-3E8C382AC2DB}
+    {75AE8D52-5252-484B-BFF8-3D6D65D48FAA}
+    {2A4FF569-1048-4123-924C-0EDF207C95F8}
+- ID: "f0cf8946-a6d7-4a77-b42f-8fbfe15c157a"
+  Hint: Title
+  Value: Количество продуктов
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T133315Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

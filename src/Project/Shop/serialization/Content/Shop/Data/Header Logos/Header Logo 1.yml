@@ -1,0 +1,25 @@
+﻿---
+ID: "dbf6288c-97a6-46c1-97f1-b07d225334df"
+Parent: "e57a51c3-b498-4888-b007-8e6c7782c877"
+Template: "8ea5a58b-4acf-43b3-a0f1-74b07d176d27"
+Path: /sitecore/content/Shop/Data/Header Logos/Header Logo 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T122722Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

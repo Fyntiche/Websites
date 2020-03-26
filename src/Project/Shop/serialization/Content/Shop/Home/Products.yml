@@ -1,0 +1,106 @@
+﻿---
+ID: "f367d57b-6b02-4b18-8ec5-6ecb10053bc6"
+Parent: "790d67b3-f98b-406c-bf8c-3a7894637e59"
+Template: "f6f0152d-2287-4dcd-baa1-0deef1a4c32f"
+Path: /sitecore/content/Shop/Home/Products
+DB: master
+SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}"
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 0
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A95404AA-AAB4-43E9-8B14-D9A4D95A386F}">
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{DA81044B-282B-4A0E-A724-44D890BA5721}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Social Networks"
+          uid="{DB77CCE9-63C6-48F9-B392-20240B7EC71A}" />
+        <r
+          ds="{DBF6288C-97A6-46C1-97F1-B07D225334DF}"
+          id="{0B9227C1-F131-4606-AF83-FFF10927935A}"
+          par=""
+          ph="Header Logo"
+          uid="{6927953C-75D6-4BE8-A1D2-ED05C62F57BA}" />
+        <r
+          id="{318C4594-8148-4078-960B-B933363A0A8E}"
+          ph="Header"
+          uid="{ABE094A5-E13D-40E7-A706-160EC486CD03}" />
+        <r
+          ds=""
+          id="{7CAB6C3C-D788-4401-AE58-37E453459F20}"
+          par="Count Product On Page=12"
+          ph="Body"
+          uid="{200FC9CE-6E47-4F5E-A065-B848FF68A2A6}" />
+        <r
+          id="{54B4CC71-F133-4677-B77D-2D7603D876A0}"
+          ph="Footer Navigation"
+          uid="{A7689453-64A6-4AF1-BC79-443B11F4622E}" />
+        <r
+          ds="{B9BF7E61-C63C-4A24-BD07-31B93FB48C8B}"
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          par=""
+          ph="Footer Copyright"
+          uid="{C8550D78-CD34-4470-BBC8-2DAA84F6DA00}" />
+        <r
+          id="{7CF8A877-E196-4187-A49B-04317164F7E4}"
+          ph="Footer"
+          uid="{69535629-5B45-4F28-B64F-1CA584847A95}" />
+        <r
+          ds="{582F5BC9-25C0-48E3-924E-578822B2183A}"
+          id="{6587DF6C-7C46-4A18-9621-52E399B12425}"
+          par=""
+          ph="Page Numbers"
+          uid="{FF09C75F-9304-423F-A0D3-F9AE6A0D6843}" />
+      </d>
+    </r>
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T121303Z
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Products
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T154907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Продукты
+    - ID: "a7d41dbb-c8a2-4a79-be62-83e64d20aa68"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1

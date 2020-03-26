@@ -1,0 +1,32 @@
+﻿---
+ID: "d13ab128-13bd-49e2-8d69-420589407e91"
+Parent: "c6203a22-dbfe-4a9a-b813-0ba87dc1e414"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Shop/Footer
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Footer
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {34AFFABC-018A-4285-A406-EA8ABD4A922E}
+    {C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}
+    {CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T182134Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

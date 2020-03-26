@@ -1,0 +1,29 @@
+﻿---
+ID: "bbd6100f-eca2-458f-9ffd-f872c786d4f4"
+Parent: "c9322094-1462-4fb1-8bb3-eb34997dc067"
+Template: "95664b00-a4d0-4071-8c4d-126578e0cc39"
+Path: /sitecore/content/Blog/Data
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{51B80376-4EC6-4380-A4EA-7E278AAD6D78}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T110624Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200324T092313Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

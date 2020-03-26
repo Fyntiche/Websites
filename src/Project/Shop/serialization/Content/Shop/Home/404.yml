@@ -1,0 +1,90 @@
+﻿---
+ID: "a402743b-ea8b-4d01-9dd9-7d69351741de"
+Parent: "790d67b3-f98b-406c-bf8c-3a7894637e59"
+Template: "9cfca702-d1cf-4ab5-a6b8-a34cc2d72f50"
+Path: /sitecore/content/Shop/Home/404
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A95404AA-AAB4-43E9-8B14-D9A4D95A386F}">
+        <p
+          uid="{DDA2FE79-9817-4168-A0DC-23249FD99E86}"
+          key="Header"
+          md="{944BAF25-57F2-4A09-BB0E-BA5CBC3E6FBE}" />
+        <p
+          uid="{1EED4A23-3A2A-4E52-A2BC-B12B09E40651}"
+          key="Body"
+          md="{F8C16AFA-1CB5-4908-B52C-CDB100B9F399}" />
+        <p
+          uid="{1105CE19-E569-4EAA-B7DF-973BEB9AE3A3}"
+          key="Footer"
+          md="{D13AB128-13BD-49E2-8D69-420589407E91}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{DA81044B-282B-4A0E-A724-44D890BA5721}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Social Networks"
+          uid="{DB77CCE9-63C6-48F9-B392-20240B7EC71A}" />
+        <r
+          id="{318C4594-8148-4078-960B-B933363A0A8E}"
+          ph="Header"
+          uid="{ABE094A5-E13D-40E7-A706-160EC486CD03}" />
+        <r
+          id="{AEA1D3F1-33D8-46C7-B8AE-AC6158CA8736}"
+          ph="Body"
+          uid="{200FC9CE-6E47-4F5E-A065-B848FF68A2A6}" />
+        <r
+          id="{54B4CC71-F133-4677-B77D-2D7603D876A0}"
+          ph="Footer Navigation"
+          uid="{A7689453-64A6-4AF1-BC79-443B11F4622E}" />
+        <r
+          ds="{B9BF7E61-C63C-4A24-BD07-31B93FB48C8B}"
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          par=""
+          ph="Footer Copyright"
+          uid="{C8550D78-CD34-4470-BBC8-2DAA84F6DA00}" />
+        <r
+          id="{7CF8A877-E196-4187-A49B-04317164F7E4}"
+          ph="Footer"
+          uid="{69535629-5B45-4F28-B64F-1CA584847A95}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200323T083917Z
+    - ID: "71e47606-d030-41ee-8819-9c411beda0c1"
+      Hint: Content
+      Value: The resource you are looking for has been deleted, its name has been changed or it is temporarily unavailable.
+    - ID: "a9611ca2-c4f1-4b90-afd9-cb68097e8cdf"
+      Hint: Title
+      Value: 404 Page
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200323T084002Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "71e47606-d030-41ee-8819-9c411beda0c1"
+      Hint: Content
+      Value: Разыскиваемый вами ресурс был удален, было изменено его имя или он временно недоступен.
+    - ID: "a9611ca2-c4f1-4b90-afd9-cb68097e8cdf"
+      Hint: Title
+      Value: Страница 404

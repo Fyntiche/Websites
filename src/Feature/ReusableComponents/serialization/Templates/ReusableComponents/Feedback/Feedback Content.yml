@@ -1,0 +1,14 @@
+﻿---
+ID: "70b84a09-ad21-45e3-a96d-30453520c607"
+Parent: "c201a9d4-7402-46e7-be6f-2273912425e0"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ReusableComponents/Feedback/Feedback Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T133120Z

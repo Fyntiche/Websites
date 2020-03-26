@@ -1,0 +1,25 @@
+﻿---
+ID: "77130432-af82-4132-a15c-cbd3e78cacad"
+Parent: "2fdc4356-e27e-4042-860b-085bb0b5bb38"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Blog/Blog Presentation Layer With Show Menu
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/gears_view.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{ABC8621D-86F6-4A6E-8C3F-3CBCF61BEB9D}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{0EE7ADC0-C64B-4FA6-B501-E2ABCB85FA8E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T142136Z

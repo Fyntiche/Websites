@@ -1,0 +1,25 @@
+﻿---
+ID: "4e6c0d8f-7e0a-4419-ac82-f6da62c2aa70"
+Parent: "9a24ed25-af4a-4269-b11c-498f162a9d27"
+Template: "cfc72d00-e37a-4595-8699-ec3c06c387d8"
+Path: /sitecore/content/Shop/Data/Taxonomies/Categories
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200305T163030Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

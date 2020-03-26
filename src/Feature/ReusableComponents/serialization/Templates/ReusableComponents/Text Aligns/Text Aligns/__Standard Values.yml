@@ -1,0 +1,23 @@
+﻿---
+ID: "e4f2751c-c6c3-4691-8de8-72163f145164"
+Parent: "7bdc92bd-e45c-446b-bbbf-0e355c8a8a85"
+Template: "7bdc92bd-e45c-446b-bbbf-0e355c8a8a85"
+Path: /sitecore/templates/Feature/ReusableComponents/Text Aligns/Text Aligns/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{EBA67E58-07CF-4593-BC29-91BC8695B924}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T114600Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

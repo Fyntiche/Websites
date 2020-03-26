@@ -1,0 +1,22 @@
+﻿---
+ID: "fb3232b4-9a33-4bd6-b975-00c5e9ab83b7"
+Parent: "3beb51c1-8b97-48f8-a81e-e738aa19e4dc"
+Template: "3beb51c1-8b97-48f8-a81e-e738aa19e4dc"
+Path: /sitecore/templates/Feature/ReusableComponents/Taxonomies/Tags/Tag/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "d673d4a8-ca8a-4e7d-b8fc-b774c8422044"
+    Hint: Value
+    Value: $name
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200305T162959Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

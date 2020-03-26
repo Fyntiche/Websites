@@ -1,0 +1,33 @@
+﻿---
+ID: "fe44ff0c-bc39-4520-908d-c8e236470779"
+Parent: "ff64fa1f-e558-4079-b839-95b07ad5c813"
+Template: "ff64fa1f-e558-4079-b839-95b07ad5c813"
+Path: /sitecore/templates/Feature/ReusableComponents/Hero Banner/Hero Banner/__Standard Values
+DB: master
+SharedFields:
+- ID: "76efe2d8-e865-4259-9b8a-250e495e7cef"
+  Hint: Image
+  Value: |
+    <image mediaid="{0269DD7B-FCBE-4C22-AA5A-8AC512106887}" alt="Image" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T093100Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: |
+        <link id="{790D67B3-F98B-406C-BF8C-3A7894637E59}" querystring="" text="Home" anchor="" url="/Shop/Home" title="" class="" linktype="internal" />
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: Hero Banner
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: Description

@@ -1,0 +1,61 @@
+﻿---
+ID: "0ee7adc0-c64b-4fa6-b501-e2abcb85fa8e"
+Parent: "77130432-af82-4132-a15c-cbd3e78cacad"
+Template: "77130432-af82-4132-a15c-cbd3e78cacad"
+Path: /sitecore/templates/Project/Blog/Blog Presentation Layer With Show Menu/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A2F624D5-EFF2-44F9-9172-33F9B58453AB}">
+        <p
+          uid="{FF3CAB93-6E70-4539-9FF1-E373B31F19CA}"
+          key="Header"
+          md="{8D5443CF-07F1-4649-87EF-2F51B8262386}" />
+        <p
+          uid="{C51364C3-81DF-4143-8FBA-06C70475A109}"
+          key="Body"
+          md="{9CB60269-6896-4BE1-B401-975C86958F8B}" />
+        <p
+          uid="{AD24D299-AFC6-4EC6-B3B0-8ABFA346A705}"
+          key="Footer"
+          md="{600E35C3-9420-4060-BA01-CBD8645A2EB9}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{E0F22149-45E3-45E0-BF68-DA71EFD618AA}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Social Networks"
+          uid="{5E504DF9-9EC3-4786-B1E2-B1655F70F06B}" />
+        <r
+          id="{07020007-AD36-4AB2-A779-A6347959B824}"
+          ph="Header"
+          uid="{A99287CC-98B8-491A-91B4-6846FCC31318}" />
+        <r
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          ph="Footer Copyright"
+          uid="{097DC854-6C29-4779-A9EA-A7502C0C5B81}" />
+        <r
+          id="{E7DBC923-821B-4E02-A72D-C4AE3E11A4B2}"
+          ph="Footer"
+          uid="{0306A38A-16BB-47AA-BBFA-D5E6E347B0D9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T142211Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

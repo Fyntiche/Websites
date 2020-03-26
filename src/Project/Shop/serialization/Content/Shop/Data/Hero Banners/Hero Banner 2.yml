@@ -1,0 +1,47 @@
+﻿---
+ID: "7e55c864-722f-4ecc-a577-d17d290da65a"
+Parent: "3d762306-dac4-4d3f-af89-47cb31594ee1"
+Template: "ff64fa1f-e558-4079-b839-95b07ad5c813"
+Path: /sitecore/content/Shop/Data/Hero Banners/Hero Banner 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T093445Z
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: |
+        <link id="{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}" querystring="" text="Products" anchor="" title="" class="" url="/Shop/Home/Products" linktype="internal" />
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: "Why do we use it?"
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165642Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: |
+        <link id="{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}" querystring="" text="Продукты" anchor="" url="/Shop/Home/Products" title="" class="" linktype="internal" />
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: "Джек- поводырь"
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: |
+        Жители улицы Мира хорошо знают этого человека. Зимой и летом, в больших чёрных очках на испещрённом синими отметинками лице, он каждый день проходит по тротуару и тук-тук — постукивает своей резной палочкой. Человек в чёрных очках — бывший военный лётчик. От взрыва вражеского снаряда он лишился одной руки и обоих глаз. И вдруг, к удивлению прохожих, слепой лётчик появился без своей извечной палочки. Вместо неё он держал за поводок собаку. Джек уверенно вёл своего хозяина по улице. У перекрёстка Джек останавливался и выжидал, пока пройдут машины. Он обходил стороной каждый столб, каждую выбоину или лужу. «Джек на остановку!» — и собака послушно ведёт своего хозяина к автобусу. Если пассажиры автобуса сами не догадываются уступить место слепому, Джек выбирает из сидящих человека помоложе и тыкается носом ему в колени: мол, ты и постоять можешь, а моему хозяину стоять трудно… «Джек, в магазин!» — ведёт в гастроном.
+        — Джек теперь мне взамен глаз! — не хвалится своим поводырём бывший лётчик.

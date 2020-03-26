@@ -1,0 +1,14 @@
+﻿---
+ID: "38c0c550-c133-4a4c-a407-3a843c8e661f"
+Parent: "c8b9b94a-b194-407a-8e53-a5d2cb264249"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ReusableComponents/Taxonomies/Categories/Category/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200305T162848Z

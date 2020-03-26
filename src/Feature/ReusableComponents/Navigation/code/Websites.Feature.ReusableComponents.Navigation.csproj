@@ -119,6 +119,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Feature\ReusableComponents\Feature.ReusableComponents.Navigation.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Views\Web.config" />
     <Content Include="Views\Renderings\Navigation.cshtml" />

@@ -1,0 +1,18 @@
+﻿---
+ID: "9cc4ea83-ce84-435c-9442-ddc063cd3f4e"
+Parent: "7005c69a-f1f7-4730-a494-7f18840ceb53"
+Template: "c2ee0ff6-6497-4920-b24c-932f491e9bc8"
+Path: /sitecore/content/Blog/Settings/Text Background Colors
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{81D76A59-8591-4254-83C2-9C98F2BD94F1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T110625Z

@@ -211,6 +211,7 @@
     <Content Include="BlogContent\_site-base.scss" />
     <Content Include="BlogContent\_site-blocks.scss" />
     <Content Include="BlogContent\_site-navbar.scss" />
+    <Content Include="App_Config\Include\Project\Project.Blog.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="BlogContent\aos.css" />
     <Content Include="BlogContent\bootstrap-datepicker.css" />

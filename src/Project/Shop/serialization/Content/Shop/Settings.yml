@@ -1,0 +1,25 @@
+﻿---
+ID: "abf2fbc8-e624-42cd-be88-2b1d640c697a"
+Parent: "4987821f-6d79-4e1d-9aad-5e8363e28b74"
+Template: "808a352b-cfe6-43dd-affb-526520b417e1"
+Path: /sitecore/content/Shop/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T081317Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170329Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

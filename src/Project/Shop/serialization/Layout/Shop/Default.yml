@@ -1,0 +1,18 @@
+﻿---
+ID: "a95404aa-aab4-43e9-8b14-d9a4d95a386f"
+Parent: "fdb3b8c2-651d-4ed0-9a60-751d9b0baf5e"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Shop/Default
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: ~/Views/Shop/Layout/Default.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T071635Z

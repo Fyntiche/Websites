@@ -1,0 +1,23 @@
+﻿---
+ID: "b2785497-09fc-4bcf-89f2-cd5c02ef77c7"
+Parent: "f26a8c71-1fa9-405f-8773-496dd265bd7c"
+Template: "f26a8c71-1fa9-405f-8773-496dd265bd7c"
+Path: /sitecore/templates/Feature/ReusableComponents/Hero Banner/Hero Banners/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FF64FA1F-E558-4079-B839-95B07AD5C813}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T093238Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

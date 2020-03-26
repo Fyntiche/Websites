@@ -1,0 +1,99 @@
+﻿---
+ID: "3b25fda3-db13-4563-b4db-022132e4a320"
+Parent: "c9322094-1462-4fb1-8bb3-eb34997dc067"
+Template: "c0bb157e-e81d-459e-a121-db5ff6a747f1"
+Path: /sitecore/content/Blog/Home
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A2F624D5-EFF2-44F9-9172-33F9B58453AB}">
+        <p
+          uid="{FF3CAB93-6E70-4539-9FF1-E373B31F19CA}"
+          key="Header"
+          md="{8D5443CF-07F1-4649-87EF-2F51B8262386}" />
+        <p
+          uid="{C51364C3-81DF-4143-8FBA-06C70475A109}"
+          key="Body"
+          md="{9CB60269-6896-4BE1-B401-975C86958F8B}" />
+        <p
+          uid="{AD24D299-AFC6-4EC6-B3B0-8ABFA346A705}"
+          key="Footer"
+          md="{600E35C3-9420-4060-BA01-CBD8645A2EB9}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{E0F22149-45E3-45E0-BF68-DA71EFD618AA}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Social Networks"
+          uid="{5E504DF9-9EC3-4786-B1E2-B1655F70F06B}" />
+        <r
+          id="{07020007-AD36-4AB2-A779-A6347959B824}"
+          ph="Header"
+          uid="{A99287CC-98B8-491A-91B4-6846FCC31318}" />
+        <r
+          ds="{C8ECFB00-4052-4F03-8C1A-F35CAF610E4C}"
+          id="{3187B584-AB62-49B9-9DBF-019235A70E96}"
+          par=""
+          ph="Carousel"
+          uid="{378189BC-76A3-4838-BF44-DF346055BBA1}" />
+        <r
+          ds="{B6BAD9FF-6475-4680-9E75-E22136CBFFB1}"
+          id="{28A18D24-D674-4B87-B965-EAEFB0BF085D}"
+          par="Text Background Color=Gray&amp;Text Align=Center&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;Button Background Color=btn-success"
+          ph="Hero Banner"
+          uid="{0B316AD2-D0EC-46C5-B4DC-DFC476A0457B}" />
+        <r
+          ds="{B9BF7E61-C63C-4A24-BD07-31B93FB48C8B}"
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          par=""
+          ph="Footer Copyright"
+          uid="{097DC854-6C29-4779-A9EA-A7502C0C5B81}" />
+        <r
+          id="{E7DBC923-821B-4E02-A72D-C4AE3E11A4B2}"
+          ph="Footer"
+          uid="{0306A38A-16BB-47AA-BBFA-D5E6E347B0D9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T110931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Home
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T183818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Главная
+    - ID: "a7d41dbb-c8a2-4a79-be62-83e64d20aa68"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1

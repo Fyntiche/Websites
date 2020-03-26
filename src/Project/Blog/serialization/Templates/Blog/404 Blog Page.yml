@@ -1,0 +1,24 @@
+﻿---
+ID: "1e1b1894-60a4-4f4a-be83-c6fd8cfdb82b"
+Parent: "2fdc4356-e27e-4042-860b-085bb0b5bb38"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Blog/404 Blog Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/delete.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {E59F0476-5917-4016-9AD0-7BDF94AC2050}
+    {4546E156-E4A5-4B47-BE92-7D1DADB9E92C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200323T083756Z

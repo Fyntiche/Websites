@@ -1,0 +1,36 @@
+﻿---
+ID: "0e839256-1a33-430a-ac00-8c16a57fbb1e"
+Parent: "00be07a0-4ab7-4aaf-b42b-899f46d2e8a0"
+Template: "deda7f94-9e6a-4fde-98b7-ead560232d14"
+Path: /sitecore/content/Shop/Data/Page Numbers/2020/03/09/13/20/67
+DB: master
+SharedFields:
+- ID: "9a8ac14b-799a-4db3-8fa6-3c2c1ca39ad4"
+  Hint: Value
+  Value: 67
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: "{0D9C9C75-BAE7-441A-AF97-A6F6C08E445B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T132057Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

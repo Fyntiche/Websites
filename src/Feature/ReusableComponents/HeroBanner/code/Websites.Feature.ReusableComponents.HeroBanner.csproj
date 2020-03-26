@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Renderings\HeroBannerSlider.cshtml" />
+    <Content Include="App_Config\Include\Feature\ReusableComponents\Feature.ReusableComponents.HeroBanner.Serialization.config" />
     <None Include="Views\Web.config" />
     <Content Include="Views\Renderings\HeroBanner.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
@@ -139,6 +140,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

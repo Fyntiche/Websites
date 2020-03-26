@@ -1,0 +1,42 @@
+﻿---
+ID: "2e20e1d4-b41a-4ea2-8234-dffc171593bc"
+Parent: "a8edcf2b-b461-4877-acc0-7b97ddd4f7d6"
+Template: "dbcd880c-715c-4589-a602-fac0e1ce2d1c"
+Path: /sitecore/content/Shop/Data/Top 3 Products
+DB: master
+SharedFields:
+- ID: "c3843dd6-891a-492d-be7b-15134b347631"
+  Hint: ProductList
+  Type: Multilist
+  Value: |
+    {365CF224-C796-4E8E-891C-C6C083437614}
+    {8AB60B33-5052-4D93-BED1-6D484510F733}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200228T084713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8f6b18c1-3f85-4356-b2d9-4905a10e7ce0"
+      Hint: Title
+      Value: Top 3 Products
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170316Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8f6b18c1-3f85-4356-b2d9-4905a10e7ce0"
+      Hint: Title
+      Value: Топ 3 продукты

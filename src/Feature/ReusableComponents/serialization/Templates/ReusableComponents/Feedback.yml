@@ -1,0 +1,25 @@
+﻿---
+ID: "c201a9d4-7402-46e7-be6f-2273912425e0"
+Parent: "844b55ca-c718-447b-a473-a92849583f06"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/ReusableComponents/Feedback
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/newspaper.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{DE2F0C1A-55DC-4220-9C74-F4DFF8985923}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{39436636-4BDB-4BCF-8532-2EF3C8628F80}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T132717Z

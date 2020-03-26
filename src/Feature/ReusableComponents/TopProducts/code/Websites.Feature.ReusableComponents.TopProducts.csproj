@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\TopProducts\Index.cshtml" />
+    <Content Include="App_Config\Include\Feature\ReusableComponents\Feature.ReusableComponents.TopProducts.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />

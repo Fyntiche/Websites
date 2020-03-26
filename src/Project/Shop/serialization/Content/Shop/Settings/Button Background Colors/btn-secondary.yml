@@ -1,0 +1,29 @@
+﻿---
+ID: "2b7bf54a-cb7a-474d-92d4-27d9ee900a58"
+Parent: "14c65efe-bf95-450a-98c5-554340de07e2"
+Template: "32b2ebca-2d41-4df7-ba75-b8b8d67f0383"
+Path: "/sitecore/content/Shop/Settings/Button Background Colors/btn-secondary"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/bullet_ball_grey.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T111519Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170356Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -141,6 +141,7 @@
     <Compile Include="ContentSearch\Fields\CategoryComputedField.cs" />
     <Compile Include="Controllers\CatalogController.cs" />
     <Content Include="Views\Renderings\Catalog\Details.cshtml" />
+    <Content Include="App_Config\Include\Feature\ReusableComponents\Feature.ReusableComponents.Products.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Renderings\Catalog\Products.cshtml" />
     <Content Include="Views\NumberOfProductsPage\Index.cshtml" />

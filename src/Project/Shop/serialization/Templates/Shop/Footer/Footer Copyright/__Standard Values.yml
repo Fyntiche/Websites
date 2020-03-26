@@ -1,0 +1,21 @@
+﻿---
+ID: "0ef8502b-fd83-483a-91cb-e0086148d913"
+Parent: "2c6f5dbd-d426-4177-a32b-f2972aa7e139"
+Template: "2c6f5dbd-d426-4177-a32b-f2972aa7e139"
+Path: /sitecore/templates/Project/Shop/Footer/Footer Copyright/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T084820Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7390c0c9-2dfe-4883-b1a0-a288dd517c62"
+      Hint: Copyright
+      Value: Copyright © 2020 All rights reserved. 

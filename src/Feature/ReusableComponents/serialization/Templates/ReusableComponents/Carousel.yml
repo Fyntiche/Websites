@@ -1,0 +1,18 @@
+﻿---
+ID: "204c15d8-e919-498c-9ed4-037b58aa7df8"
+Parent: "844b55ca-c718-447b-a473-a92849583f06"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/ReusableComponents/Carousel
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Multimedia/32x32/fadein_video_h.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T091604Z

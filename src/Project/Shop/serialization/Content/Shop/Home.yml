@@ -1,0 +1,190 @@
+﻿---
+ID: "790d67b3-f98b-406c-bf8c-3a7894637e59"
+Parent: "4987821f-6d79-4e1d-9aad-5e8363e28b74"
+Template: "859cdccc-904e-4c01-97a6-896a7f67faed"
+Path: /sitecore/content/Shop/Home
+DB: master
+SharedFields:
+- ID: "0caaf843-3ac5-42d2-b61e-7204f3af5d81"
+  Hint: Hero Image
+  Value: |
+    <image mediaid="{EEA65B98-97AD-429B-8ABA-24078C97652A}" alt="Изображение" height="" width="" hspace="" vspace="" />
+- ID: "61cf7151-0cbd-4db4-9738-d753a55a6e65"
+  Hint: __Enforce version presence
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p
+          uid="{22077AB3-A9F3-4351-8587-38C00861D7BC}">
+          <p:d />
+        </p>
+        <p
+          uid="{AB0B5B1A-2584-4F30-9DA9-31994C0670A5}">
+          <p:d />
+        </p>
+        <p
+          uid="{BB5D7A1F-1C3F-4D52-A081-025FC4D5ECC1}">
+          <p:d />
+        </p>
+        <p
+          uid="{FBE73B88-C8DA-4F3D-9853-DAA626BD8304}"
+          p:before="*"
+          s:key="Header"
+          s:md="{944BAF25-57F2-4A09-BB0E-BA5CBC3E6FBE}" />
+        <p
+          uid="{A5852A85-642F-4A52-9707-056E648676B7}"
+          p:after="p[@uid='{FBE73B88-C8DA-4F3D-9853-DAA626BD8304}']"
+          s:key="Body"
+          s:md="{F8C16AFA-1CB5-4908-B52C-CDB100B9F399}" />
+        <p
+          uid="{29DCAA2E-CA9A-4476-A65F-2C86C6565918}"
+          p:after="p[@uid='{A5852A85-642F-4A52-9707-056E648676B7}']"
+          s:key="Footer"
+          s:md="{D13AB128-13BD-49E2-8D69-420589407E91}" />
+        <r
+          uid="{0A6A394E-542A-4248-956B-61BC65210212}"
+          s:ds="{DBF6288C-97A6-46C1-97F1-B07D225334DF}"
+          s:par="" />
+        <r
+          uid="{D4B5CFFA-4D33-452C-A949-999368EDA298}">
+          <p:d />
+        </r>
+        <r
+          uid="{3B0E073E-3444-49BA-8844-EFB64D257609}">
+          <p:d />
+        </r>
+        <r
+          uid="{67749F07-60FD-4F1F-AFA2-B7A3A7DE89FD}">
+          <p:d />
+        </r>
+        <r
+          uid="{35CEA009-BA92-44F5-8AEA-A4D921070F16}"
+          p:after="r[@uid='{0A6A394E-542A-4248-956B-61BC65210212}']"
+          s:id="{318C4594-8148-4078-960B-B933363A0A8E}"
+          s:ph="Header" />
+        <r
+          uid="{7EDB7DB3-9268-4470-9962-03CF5C6F897E}"
+          p:after="r[@uid='{35CEA009-BA92-44F5-8AEA-A4D921070F16}']"
+          s:ds="{5979673B-2E4F-4771-9FA8-C553E9362D46}"
+          s:id="{28A18D24-D674-4B87-B965-EAEFB0BF085D}"
+          s:par="Text Background Color=White&amp;Text Align=Center&amp;Button Background Color=btn-secondary"
+          s:ph="Hero Banner" />
+        <r
+          uid="{C8D7C94B-7A15-4C9C-A956-21B2AB263C3C}"
+          p:after="r[@uid='{7EDB7DB3-9268-4470-9962-03CF5C6F897E}']"
+          s:ds="{C8ECFB00-4052-4F03-8C1A-F35CAF610E4C}"
+          s:id="{3187B584-AB62-49B9-9DBF-019235A70E96}"
+          s:par=""
+          s:ph="Carousel" />
+        <r
+          uid="{A10FBBA7-DD78-41D7-B18F-AC8C5FFCFBFB}"
+          p:after="r[@uid='{C8D7C94B-7A15-4C9C-A956-21B2AB263C3C}']"
+          s:ds="{2E20E1D4-B41A-4EA2-8234-DFFC171593BC}"
+          s:id="{42C7A5E6-61EC-456B-B73E-A5FC2881D290}"
+          s:par=""
+          s:ph="Top Products" />
+        <r
+          uid="{DA3664AD-A421-4746-A2DA-0F7DB9DABBB9}"
+          p:after="r[@uid='{A10FBBA7-DD78-41D7-B18F-AC8C5FFCFBFB}']"
+          s:id="{54B4CC71-F133-4677-B77D-2D7603D876A0}"
+          s:ph="Body" />
+        <r
+          uid="{56BF086A-104A-4BF5-ADA9-0EDA4BC3BE78}"
+          p:after="r[@uid='{DA3664AD-A421-4746-A2DA-0F7DB9DABBB9}']"
+          s:id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          s:ph="Footer Navigation" />
+        <r
+          uid="{425B0383-A51A-43D9-83BC-6007AD945B6C}"
+          p:after="r[@uid='{56BF086A-104A-4BF5-ADA9-0EDA4BC3BE78}']"
+          s:ds="{B9BF7E61-C63C-4A24-BD07-31B93FB48C8B}"
+          s:id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          s:par=""
+          s:ph="Footer Copyright" />
+        <r
+          uid="{54A2DF9E-8C7E-48B1-9AC6-6014CCB4E3E5}"
+          p:after="r[@uid='{425B0383-A51A-43D9-83BC-6007AD945B6C}']"
+          s:id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          s:ph="Footer Social Networks" />
+        <r
+          uid="{CFEE1811-21D6-417D-B657-C4404450882E}"
+          p:after="*[1=2]"
+          s:id="{7CF8A877-E196-4187-A49B-04317164F7E4}"
+          s:ph="Footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{7EDB7DB3-9268-4470-9962-03CF5C6F897E}">
+              <p:d />
+            </r>
+            <r
+              uid="{F9235EC7-53FE-4D6A-8C2E-DAA2754D2F67}"
+              p:after="r[@uid='{CFEE1811-21D6-417D-B657-C4404450882E}']"
+              s:ds="{5979673B-2E4F-4771-9FA8-C553E9362D46}"
+              s:id="{3187B584-AB62-49B9-9DBF-019235A70E96}"
+              s:par=""
+              s:ph="Hero Banner" />
+            <r
+              uid="{622FFA72-1176-4B58-A55C-DDFAA6E7A597}"
+              p:after="*[1=2]"
+              s:ds="{5979673B-2E4F-4771-9FA8-C553E9362D46}"
+              s:id="{28A18D24-D674-4B87-B965-EAEFB0BF085D}"
+              s:par="Text Background Color=White&amp;Text Align=Center&amp;Button Background Color=btn-secondary"
+              s:ph="Hero Banner" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T084741Z
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Home
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T154731Z
+    - ID: "3130ffb8-5998-4ea3-afcd-39782bf098c3"
+      Hint: Hero Text
+      Value: Главный текст
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7f107140-d902-49c2-9a9a-3dd7ae142a98"
+      Hint: Navigation Title
+      Value: Главная
+    - ID: "850cb33b-ab7c-44c1-a6d6-f1b4a226a213"
+      Hint: Body
+      Value: текст
+    - ID: "a7d41dbb-c8a2-4a79-be62-83e64d20aa68"
+      Hint: Show in Menu
+      Type: Checkbox
+      Value: 1

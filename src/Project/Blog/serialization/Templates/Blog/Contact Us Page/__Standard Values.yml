@@ -1,0 +1,28 @@
+﻿---
+ID: "7628ac4d-6bd5-4289-81f1-a55056bfb07c"
+Parent: "b6e7a08a-fa03-4f2e-b3d6-08be1121ac0f"
+Template: "b6e7a08a-fa03-4f2e-b3d6-08be1121ac0f"
+Path: /sitecore/templates/Project/Blog/Contact Us Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "312d3e6e-0524-4087-921c-72d394bd3068"
+  Hint: Phone Number
+  Value: +375298926095
+- ID: "93faf868-6fb2-41a0-a99c-659fe2b0c13b"
+  Hint: Email
+  Value: ivaneremov@gmail.com
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T065155Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ec47d81b-3ccf-4ad6-9e68-0e27eecbd09d"
+      Hint: Address
+      Value: г.Орша, ул. Хигрина, д.35, кв. 29

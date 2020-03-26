@@ -1,0 +1,27 @@
+﻿---
+ID: "c0bb157e-e81d-459e-a121-db5ff6a747f1"
+Parent: "2fdc4356-e27e-4042-860b-085bb0b5bb38"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Blog/Blog Home Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/warehouse.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {ABC8621D-86F6-4A6E-8C3F-3CBCF61BEB9D}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{F333D2EB-92C0-4ABA-AD3E-F7C52722542F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T110847Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "a4e4b64b-8736-4d37-9d7e-a58c4d2a23db"
+Parent: "c2ee0ff6-6497-4920-b24c-932f491e9bc8"
+Template: "c2ee0ff6-6497-4920-b24c-932f491e9bc8"
+Path: /sitecore/templates/Feature/ReusableComponents/Text Background Colors/Text Background Colors/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{02870CED-F141-429F-A1FB-92BAF0F737BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T114958Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

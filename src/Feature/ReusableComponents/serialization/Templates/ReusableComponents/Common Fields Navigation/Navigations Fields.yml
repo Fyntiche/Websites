@@ -1,0 +1,18 @@
+﻿---
+ID: "68f08e81-27f6-4429-9476-cb9d43ef68f4"
+Parent: "ddb1db90-6044-45b3-91b9-9e6387fd23c8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ReusableComponents/Common Fields Navigation/Navigations Fields
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/selection_find.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T121728Z

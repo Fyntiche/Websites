@@ -1,0 +1,14 @@
+﻿---
+ID: "8ed9793a-1d8f-4df8-8e71-83527cc18976"
+Parent: "70e1841e-0cc1-4855-b658-e60529276fe9"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ReusableComponents/Carousel/Slide/Slide Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T091829Z

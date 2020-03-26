@@ -1,0 +1,28 @@
+﻿---
+ID: "b9bf7e61-c63c-4a24-bd07-31b93fb48c8b"
+Parent: "a8edcf2b-b461-4877-acc0-7b97ddd4f7d6"
+Template: "2c6f5dbd-d426-4177-a32b-f2972aa7e139"
+Path: /sitecore/content/Shop/Data/Footer Copyright
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200228T092815Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165611Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7390c0c9-2dfe-4883-b1a0-a288dd517c62"
+      Hint: Copyright
+      Value: Права защищены

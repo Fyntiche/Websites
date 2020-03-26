@@ -1,0 +1,18 @@
+﻿---
+ID: "6e0149bb-f553-4235-93a3-42847261ed6e"
+Parent: "4e6cbf0e-cce8-4eec-9111-54b12db07d3e"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Shop/Home/Products/2020/03/05/16/49
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T142631Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

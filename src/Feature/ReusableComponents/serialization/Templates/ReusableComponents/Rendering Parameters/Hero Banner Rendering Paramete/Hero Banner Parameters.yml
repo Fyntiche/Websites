@@ -1,0 +1,14 @@
+﻿---
+ID: "c8ba2aa3-4392-4310-a88a-f2616481ef2b"
+Parent: "e6880c59-434e-4480-8f97-a5903f0e53ca"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/ReusableComponents/Rendering Parameters/Hero Banner Rendering Parameters/Hero Banner Parameters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T120233Z

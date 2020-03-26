@@ -1,0 +1,131 @@
+﻿---
+ID: "d8d3d0d5-6d30-48e2-afa7-055c807e649f"
+Parent: "959cded3-f9f5-478b-a655-43d4c8b1cd73"
+Template: "959cded3-f9f5-478b-a655-43d4c8b1cd73"
+Path: /sitecore/templates/Feature/ReusableComponents/Products/Product/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{C201A9D4-7402-46E7-BE6F-2273912425E0}"
+- ID: "76c3d37f-3d13-44b5-a865-001a3cc2ad96"
+  Hint: Title
+  Value: $name
+- ID: "9211cce6-7060-4ee8-9d86-a7a08049c30d"
+  Hint: Image
+  Value: 
+- ID: "98cc5288-fa97-47e9-b5f0-509df52d0e19"
+  Hint: Price
+  Value: 150
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A95404AA-AAB4-43E9-8B14-D9A4D95A386F}">
+        <p
+          uid="{FBE73B88-C8DA-4F3D-9853-DAA626BD8304}"
+          key="Header"
+          md="{944BAF25-57F2-4A09-BB0E-BA5CBC3E6FBE}" />
+        <p
+          uid="{A5852A85-642F-4A52-9707-056E648676B7}"
+          key="Body"
+          md="{F8C16AFA-1CB5-4908-B52C-CDB100B9F399}" />
+        <p
+          uid="{29DCAA2E-CA9A-4476-A65F-2C86C6565918}"
+          key="Footer"
+          md="{D13AB128-13BD-49E2-8D69-420589407E91}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{8A0CD694-0B45-40FA-9181-19DF9769C2E7}" />
+        <r
+          ds="{DBF6288C-97A6-46C1-97F1-B07D225334DF}"
+          id="{0B9227C1-F131-4606-AF83-FFF10927935A}"
+          par=""
+          ph="Header Logo"
+          uid="{0A6A394E-542A-4248-956B-61BC65210212}" />
+        <r
+          id="{318C4594-8148-4078-960B-B933363A0A8E}"
+          ph="Header"
+          uid="{35CEA009-BA92-44F5-8AEA-A4D921070F16}" />
+        <r
+          id="{CA64B974-5AEA-4412-A931-D9D1819E39B9}"
+          ph="Body"
+          uid="{DA3664AD-A421-4746-A2DA-0F7DB9DABBB9}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Footer Navigation"
+          uid="{56BF086A-104A-4BF5-ADA9-0EDA4BC3BE78}" />
+        <r
+          ds="{B9BF7E61-C63C-4A24-BD07-31B93FB48C8B}"
+          id="{C9A2CCAA-98C6-48FB-911F-D751CDD56A9C}"
+          par=""
+          ph="Footer Copyright"
+          uid="{425B0383-A51A-43D9-83BC-6007AD945B6C}" />
+        <r
+          id="{CC0ADB1F-DD22-48EE-ABAB-D910E67A553C}"
+          ph="Footer Social Networks"
+          uid="{54A2DF9E-8C7E-48B1-9AC6-6014CCB4E3E5}" />
+        <r
+          id="{7CF8A877-E196-4187-A49B-04317164F7E4}"
+          ph="Footer"
+          uid="{CFEE1811-21D6-417D-B657-C4404450882E}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T121540Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: Short Description
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: 
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: 
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: Description
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T163155Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: 
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: 
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: 
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: 

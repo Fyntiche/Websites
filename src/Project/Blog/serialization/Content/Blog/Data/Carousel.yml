@@ -1,0 +1,18 @@
+﻿---
+ID: "46df0102-400d-4747-9834-f6679748d3ab"
+Parent: "bbd6100f-eca2-458f-9ffd-f872c786d4f4"
+Template: "a53b081f-ba9e-47f4-96c6-7114b3ec4d85"
+Path: /sitecore/content/Blog/Data/Carousel
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E8C0BAF2-B94B-42A1-A6EE-31B745A68720}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T110624Z

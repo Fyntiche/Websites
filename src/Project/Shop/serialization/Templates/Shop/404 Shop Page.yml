@@ -1,0 +1,24 @@
+﻿---
+ID: "9cfca702-d1cf-4ab5-a6b8-a34cc2d72f50"
+Parent: "2be6227d-21db-40de-82aa-3caefbe4cf29"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Shop/404 Shop Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/delete.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {E59F0476-5917-4016-9AD0-7BDF94AC2050}
+    {D1EBDB1F-562B-4908-8DB9-4265A130F9C9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200323T083659Z

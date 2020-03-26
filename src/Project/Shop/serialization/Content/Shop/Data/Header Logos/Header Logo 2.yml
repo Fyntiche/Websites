@@ -1,0 +1,30 @@
+﻿---
+ID: "3104477b-fee0-4be2-bc0f-1e929c50d1c9"
+Parent: "e57a51c3-b498-4888-b007-8e6c7782c877"
+Template: "8ea5a58b-4acf-43b3-a0f1-74b07d176d27"
+Path: /sitecore/content/Shop/Data/Header Logos/Header Logo 2
+DB: master
+SharedFields:
+- ID: "9b80e65d-ff23-46d3-94c0-5c797af9b3c2"
+  Hint: Header Image
+  Value: |
+    <image mediaid="{F54E7F80-A43C-41D3-A3CC-C5F5898304E4}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T122732Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165637Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

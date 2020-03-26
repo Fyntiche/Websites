@@ -1,0 +1,75 @@
+﻿---
+ID: "ed384e5a-daac-425d-ad2d-1bba95c5b13a"
+Parent: "4a8b1d82-3e75-457e-ad46-894c50f9c16f"
+Template: "959cded3-f9f5-478b-a655-43d4c8b1cd73"
+Path: /sitecore/content/Shop/Home/Products/2020/03/05/16/50/Product 41
+DB: master
+SharedFields:
+- ID: "76c3d37f-3d13-44b5-a865-001a3cc2ad96"
+  Hint: Title
+  Value: Чехол Samsung для Samsung Galaxy S10e
+- ID: "9211cce6-7060-4ee8-9d86-a7a08049c30d"
+  Hint: Image
+  Value: |
+    <image mediaid="{53ED096E-B731-4B6C-95EA-D7CD1220A43C}" alt="Image" height="" width="" hspace="" vspace="" />
+- ID: "98cc5288-fa97-47e9-b5f0-509df52d0e19"
+  Hint: Price
+  Value: 93
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: "{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T123340Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: Чехол Samsung Pattern Cover для Samsung Galaxy S10e (белый/желтый)
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{6180C25E-455A-4C60-A1C5-85BCD7F47B44}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {3268072D-3A04-40BC-BB56-B683A3017C5B}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+        {FEA78230-8DEA-4846-B093-96141210D038}
+        {8ABA9D88-CF7D-4F9F-84F1-EC0B8EC9379C}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: |
+        Ультра материалы
+        Приставка «ультра» в переводе с латыни означает «сверх» и «чрезмерно». И она стоит в названии не случайно. Этот чехол на самом деле сверхтонкий и чрезмерно прочный.
+        Ultra Hybrid состоит из двух неразделимых частей: прозрачной накладки на заднюю крышку и бампера на торцы.
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T163436Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: Чехол Samsung Pattern Cover для Samsung Galaxy S10e (белый/желтый)
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{562C3E6E-84D3-4584-B0DF-E11808A3D56B}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {3268072D-3A04-40BC-BB56-B683A3017C5B}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+        {FEA78230-8DEA-4846-B093-96141210D038}
+        {8ABA9D88-CF7D-4F9F-84F1-EC0B8EC9379C}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: |
+        Ультра материалы
+        Приставка «ультра» в переводе с латыни означает «сверх» и «чрезмерно». И она стоит в названии не случайно. Этот чехол на самом деле сверхтонкий и чрезмерно прочный.
+        Ultra Hybrid состоит из двух неразделимых частей: прозрачной накладки на заднюю крышку и бампера на торцы.

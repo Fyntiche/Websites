@@ -1,0 +1,23 @@
+﻿---
+ID: "89f70d73-bb18-444f-9359-af4d4fa1b74a"
+Parent: "38a0c1b7-c887-4ecb-b7f7-7a13340b8c47"
+Template: "38a0c1b7-c887-4ecb-b7f7-7a13340b8c47"
+Path: /sitecore/templates/Feature/ReusableComponents/Page Numbers/Page Numbers/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{DEDA7F94-9E6A-4FDE-98B7-EAD560232D14}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T131216Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

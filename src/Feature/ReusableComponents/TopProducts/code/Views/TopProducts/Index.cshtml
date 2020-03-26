@@ -33,7 +33,7 @@
                                 <p class="s-text8 p-t-16">
                                     @Html.Sitecore().Field("Description", item)
                                 </p>
-                                <span class="s-text6">Price: </span> <span class="s-text7">@Html.Sitecore().Field("Price", item)</span>
+                                <span class="s-text6">@Sitecore.Globalization.Translate.Text("Price"): </span> <span class="s-text7">@Html.Sitecore().Field("Price", item) $</span>
                             </div>
                         </div>
                     </div>

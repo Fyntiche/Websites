@@ -1,0 +1,67 @@
+﻿---
+ID: "e4601e9b-6c26-49b1-8b92-53c51d050199"
+Parent: "63cbb87c-074e-4751-99c8-ab729e19b0c0"
+Template: "959cded3-f9f5-478b-a655-43d4c8b1cd73"
+Path: /sitecore/content/Shop/Home/Products/2020/03/05/16/45/Product 13
+DB: master
+SharedFields:
+- ID: "76c3d37f-3d13-44b5-a865-001a3cc2ad96"
+  Hint: Title
+  Value: "Mango / Сумка g - ROMA"
+- ID: "9211cce6-7060-4ee8-9d86-a7a08049c30d"
+  Hint: Image
+  Value: |
+    <image mediaid="{E9AD9152-9E39-4E37-9C16-4D5CCAD7E749}" alt="Image" height="" width="" hspace="" vspace="" />
+- ID: "98cc5288-fa97-47e9-b5f0-509df52d0e19"
+  Hint: Price
+  Value: 150
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: "{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T121830Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: "Mango / Сумка g - ROMA"
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{7E698635-49CC-4D6D-BD3D-8B66A5E20F73}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {8ABA9D88-CF7D-4F9F-84F1-EC0B8EC9379C}
+        {49D6B4D3-F4CE-474E-ABC6-AFC766FCDB35}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: Шоппер (сумка для покупок) – довольно крупная и очень вместительная модель в форме прямоугольника, с парой длинных ручек. Подходит для ношения на плече, в руке или на локте. Производится из различных мягких материалов. Верх может быть свободным или застёгиваться на молнию.
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T163335Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: "Mango / Сумка g - ROMA"
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{6180C25E-455A-4C60-A1C5-85BCD7F47B44}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {8ABA9D88-CF7D-4F9F-84F1-EC0B8EC9379C}
+        {49D6B4D3-F4CE-474E-ABC6-AFC766FCDB35}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: Шоппер (сумка для покупок) – довольно крупная и очень вместительная модель в форме прямоугольника, с парой длинных ручек. Подходит для ношения на плече, в руке или на локте. Производится из различных мягких материалов. Верх может быть свободным или застёгиваться на молнию.

@@ -1,0 +1,45 @@
+﻿---
+ID: "e3cfc3ea-6c67-4516-a489-9550aa8ac576"
+Parent: "3d762306-dac4-4d3f-af89-47cb31594ee1"
+Template: "ff64fa1f-e558-4079-b839-95b07ad5c813"
+Path: /sitecore/content/Shop/Data/Hero Banners/Hero Banner 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T093512Z
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: |
+        <link id="{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}" querystring="" text="Products" anchor="" title="" class="" url="/Shop/Home/Products" linktype="internal" />
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: "Where can I get some?"
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165643Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: |
+        <link id="{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}" querystring="" text="Продукты" anchor="" url="/Shop/Home/Products" title="" class="" linktype="internal" />
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: Кукушка 
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: "Кукушка (ненецкая сказка) Жила на земле бедная женщина. Было у неё четверо детей. Не слушались дети матери. Бегали, играли на снегу с утра до вечера. Одежду промочат, а мать — суши, снегу натащат, а мать — убери. И рыбу на реке мать сома ловила. Тяжело ей было. А дети ей не помогали. От жизни тяжелой заболела мать. Лежит она и просит, детей зовёт: «Детки, пересохло горло, принесите мне водички». Не один, не два раза просила мать. Не идут дети за водой. Наконец, захотел старший есть, заглянул в чум, а мать посреди чума стоит, малицу надевает. И вдруг малица перьями покрылась. Берёт мать доску, на которой шкуру скоблят, а доска та хвостом птичьим становится. Напёрсток железный ей клювом стал. Вместо рук крылья выросли. Обернулась мать птицей и вылетела из чума. — Братья, смотрите, смотрите: улетает наша мать птицей! — закричал старший сын. Тут побежали дети за матерью: — Мама, мы тебе водички принесли. -Ку-ку, ку-ку, ку-ку! Поздно, сынок, не вернусь я. Так бежали за матерью дети много дней и ночей по камням, по болотам по кочкам. Ноги себе в кровь изранили. Где побегут, там красный след остаётся. Навсегда бросила детей мать кукушка. И с тех пор не вьёт себе кукушка гнезда, не растит сама своих детей, а по тундре стой поры красный мох стелится."

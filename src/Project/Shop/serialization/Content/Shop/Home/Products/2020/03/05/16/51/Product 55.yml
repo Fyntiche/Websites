@@ -1,0 +1,75 @@
+﻿---
+ID: "9597a9b9-7a32-43b9-bceb-c5aed400bea5"
+Parent: "1d1f6519-279f-4377-90b1-d05bfcfa04ae"
+Template: "959cded3-f9f5-478b-a655-43d4c8b1cd73"
+Path: /sitecore/content/Shop/Home/Products/2020/03/05/16/51/Product 55
+DB: master
+SharedFields:
+- ID: "76c3d37f-3d13-44b5-a865-001a3cc2ad96"
+  Hint: Title
+  Value: Наушники Apple AirPods
+- ID: "9211cce6-7060-4ee8-9d86-a7a08049c30d"
+  Hint: Image
+  Value: |
+    <image mediaid="{58C98372-FF2C-4C00-A145-0674DCCE9114}" alt="Image" height="" width="" hspace="" vspace="" />
+- ID: "98cc5288-fa97-47e9-b5f0-509df52d0e19"
+  Hint: Price
+  Value: 50
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: "{F367D57B-6B02-4B18-8EC5-6ECB10053BC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T122518Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: Беспроводные наушники Apple AirPods with Charging Case (MV7N2RU/A)
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{6180C25E-455A-4C60-A1C5-85BCD7F47B44}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {49D6B4D3-F4CE-474E-ABC6-AFC766FCDB35}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+        {9DC93F71-218B-4B32-97CD-D6F9A0C16A7A}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: |
+        Вид устройства Наушники с микрофоном
+        Тип подключения Свободное (True wireless)
+        Конструкция наушников Вставные
+        Конструкция оголовья Внутри уха
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T163504Z
+    - ID: "6eed3288-f2de-464d-ab66-aa0979167f1e"
+      Hint: Short Description
+      Value: Беспроводные наушники Apple AirPods with Charging Case (MV7N2RU/A)
+    - ID: "bc7c9db9-3f85-4994-a461-7bc4925b0e3d"
+      Hint: Category
+      Value: "{7E698635-49CC-4D6D-BD3D-8B66A5E20F73}"
+    - ID: "d432c15f-94e6-41ca-9b9a-3e0f33127064"
+      Hint: Tags
+      Type: Multilist
+      Value: |
+        {49D6B4D3-F4CE-474E-ABC6-AFC766FCDB35}
+        {EF735DA2-5271-4E72-997F-5644503C4B3D}
+        {9DC93F71-218B-4B32-97CD-D6F9A0C16A7A}
+    - ID: "f48ad4c5-961d-4b97-82f6-91d93281e83a"
+      Hint: Description
+      Value: |
+        Вид устройства Наушники с микрофоном
+        Тип подключения Свободное (True wireless)
+        Конструкция наушников Вставные
+        Конструкция оголовья Внутри уха

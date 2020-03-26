@@ -1,0 +1,80 @@
+﻿---
+ID: "1a3ecc77-387e-40fc-8dd2-2683c39c61ba"
+Parent: "859cdccc-904e-4c01-97a6-896a7f67faed"
+Template: "859cdccc-904e-4c01-97a6-896a7f67faed"
+Path: /sitecore/templates/Project/Shop/Shop Home Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "0caaf843-3ac5-42d2-b61e-7204f3af5d81"
+  Hint: Hero Image
+  Value: |
+    <image mediaid="{EEA65B98-97AD-429B-8ABA-24078C97652A}" />
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7E48F80C-1DDA-46A4-908E-C86E38A3AE63}
+    {F6F0152D-2287-4DCD-BAA1-0DEEF1A4C32F}
+    {9CFCA702-D1CF-4AB5-A6B8-A34CC2D72F50}
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A95404AA-AAB4-43E9-8B14-D9A4D95A386F}">
+        <p
+          uid="{22077AB3-A9F3-4351-8587-38C00861D7BC}"
+          key="Header"
+          md="{944BAF25-57F2-4A09-BB0E-BA5CBC3E6FBE}" />
+        <p
+          uid="{AB0B5B1A-2584-4F30-9DA9-31994C0670A5}"
+          key="Body"
+          md="{F8C16AFA-1CB5-4908-B52C-CDB100B9F399}" />
+        <p
+          uid="{BB5D7A1F-1C3F-4D52-A081-025FC4D5ECC1}"
+          key="Footer"
+          md="{D13AB128-13BD-49E2-8D69-420589407E91}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Header Navigation"
+          uid="{8A0CD694-0B45-40FA-9181-19DF9769C2E7}" />
+        <r
+          id="{0B9227C1-F131-4606-AF83-FFF10927935A}"
+          ph="Header Logo"
+          uid="{0A6A394E-542A-4248-956B-61BC65210212}" />
+        <r
+          id="{318C4594-8148-4078-960B-B933363A0A8E}"
+          ph="Header"
+          uid="{D4B5CFFA-4D33-452C-A949-999368EDA298}" />
+        <r
+          ds="{3D762306-DAC4-4D3F-AF89-47CB31594EE1}"
+          id="{28A18D24-D674-4B87-B965-EAEFB0BF085D}"
+          par=""
+          ph="Hero Banner"
+          uid="{3B0E073E-3444-49BA-8844-EFB64D257609}" />
+        <r
+          id="{34AFFABC-018A-4285-A406-EA8ABD4A922E}"
+          ph="Footer Navigation"
+          uid="{67749F07-60FD-4F1F-AFA2-B7A3A7DE89FD}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T064418Z
+    - ID: "3130ffb8-5998-4ea3-afcd-39782bf098c3"
+      Hint: Hero Text
+      Value: Hero Text
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "850cb33b-ab7c-44c1-a6d6-f1b4a226a213"
+      Hint: Body
+      Value: Body

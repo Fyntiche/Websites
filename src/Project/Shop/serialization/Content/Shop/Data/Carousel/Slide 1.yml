@@ -1,0 +1,25 @@
+﻿---
+ID: "27be880e-95aa-4dbc-b5f3-2dcec70211f9"
+Parent: "c8ecfb00-4052-4f03-8c1a-f35caf610e4c"
+Template: "70e1841e-0cc1-4855-b658-e60529276fe9"
+Path: /sitecore/content/Shop/Data/Carousel/Slide 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T092337Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,53 @@
+﻿---
+ID: "5979673b-2e4f-4771-9fa8-c553e9362d46"
+Parent: "3d762306-dac4-4d3f-af89-47cb31594ee1"
+Template: "ff64fa1f-e558-4079-b839-95b07ad5c813"
+Path: /sitecore/content/Shop/Data/Hero Banners/Hero Banner 1
+DB: master
+SharedFields:
+- ID: "76efe2d8-e865-4259-9b8a-250e495e7cef"
+  Hint: Image
+  Value: |
+    <image mediaid="{E7766D54-030A-42A1-8E06-F0F64BB7BD11}" alt="Image" height="" width="" hspace="" vspace="" ></image>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T093331Z
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: 
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: Our story
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: Phasellus egestas nisi nisi, lobortis ultricies risus semper nec. Vestibulum pharetra ac ante ut pellentesque. Curabitur fringilla dolor quis lorem accumsan, vitae molestie urna dapibus. Pellentesque porta est ac neque bibendum viverra. Vivamus lobortis magna ut interdum laoreet. Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis ipsum, et maximus enim ligula ac ligula. Vivamus tristique vulputate ultricies. Sed vitae ultrices orci.
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165641Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "adca2136-cc68-4adb-9c78-1541a62efec8"
+      Hint: Call To Action Url
+      Value: 
+    - ID: "bc34cfd0-2415-4a1e-a5ae-818c24c8c274"
+      Hint: Title
+      Value: Подарок
+    - ID: "eba2ca69-4be2-4f4b-8348-9978053cc006"
+      Hint: Description
+      Value: |
+        Не грибная была осень, совсем не грибная. В холодном сухом лесу грибами даже и не попахивало. Но всё равно меня тянуло в лес – к опушкам, к просторным голубым небесам. И корзину я взял по привычке – прихватить где-то интересный, похожий на человечка или зверушку, корешок, бросить яркую рубиновую гроздь калины.
+        Я переходил с одной тропинки на другую, вслушивался в громкий стук дятла.
+        И вдруг насторожился – откуда-то потянуло внезапной приятной сыростью. Я огляделся.
+        Посреди тропинки пробился маленький крепкий боровичок! Вот ещё один! А вон на обочине увесистый боровик, а дальше подосиновик и моховик, и подберёзовик. Вот удача-то! На минуту я присел отдохнуть и порадоваться потяжелевшей корзине. Вдруг услышал какой–то легкий шум. Оглянулся, а сзади меня зверёк с полосочками на спине – то ли ласка, то ли бурундучок, а рядом и белочка.
+        Я опомнился. Вон сколько тут лесного народа кормится! Я шел и иногда оставлял по дороге то грибок, то кусочек краюшки хлеба. Зверькам пригодятся!

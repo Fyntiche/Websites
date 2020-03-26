@@ -1,0 +1,18 @@
+﻿---
+ID: "94977343-7c8d-4c13-8ce8-e7d9ae74ce18"
+Parent: "2be6227d-21db-40de-82aa-3caefbe4cf29"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Shop/Footer
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/window_split_ver.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T081707Z

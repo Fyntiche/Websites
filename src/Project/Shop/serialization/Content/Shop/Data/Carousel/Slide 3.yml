@@ -1,0 +1,30 @@
+﻿---
+ID: "3363b1f4-26d5-400f-bcdf-e01c6c3c25bf"
+Parent: "c8ecfb00-4052-4f03-8c1a-f35caf610e4c"
+Template: "70e1841e-0cc1-4855-b658-e60529276fe9"
+Path: /sitecore/content/Shop/Data/Carousel/Slide 3
+DB: master
+SharedFields:
+- ID: "0e5c2190-7c3d-42df-8864-a6f7dfb42815"
+  Hint: Image
+  Value: |
+    <image mediaid="{633247F9-2734-46F2-BA11-A33385B148ED}" alt="Image" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200227T092417Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T165609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

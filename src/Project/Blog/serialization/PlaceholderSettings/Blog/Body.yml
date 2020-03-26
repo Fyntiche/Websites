@@ -1,0 +1,32 @@
+﻿---
+ID: "9cb60269-6896-4be1-b401-975c86958f8b"
+Parent: "a4c00c15-5d59-485e-9470-4af8c8b8034f"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Blog/Body
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: Body
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {3187B584-AB62-49B9-9DBF-019235A70E96}
+    {28A18D24-D674-4B87-B965-EAEFB0BF085D}
+    {F710C0CB-C2E4-49E4-B057-781E1EE51C65}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T182008Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

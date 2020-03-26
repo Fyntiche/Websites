@@ -1,0 +1,35 @@
+﻿---
+ID: "0eda60b0-bb21-472d-8343-40adfae3d031"
+Parent: "33d19657-0928-4e10-9403-3b833abc952d"
+Template: "c201a9d4-7402-46e7-be6f-2273912425e0"
+Path: /sitecore/content/Shop/Home/Products/2020/03/05/16/51/Product 51/Feedback 1
+DB: master
+SharedFields:
+- ID: "39c4902e-9960-4469-aeef-e878e9c8218f"
+  Hint: __Hidden
+  Type: Checkbox
+  Value: 0
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: "{3FC58E62-229E-474D-A31C-1A3817A4A497}"
+- ID: "b0766922-c924-40d5-9f41-b96f8be7b7cd"
+  Hint: Author
+  Value: Евгений
+- ID: "bbfcb984-d0be-416b-a34e-71fc7913b884"
+  Hint: Text
+  Value: "Телефон оправдал все ожидания, большой яркий, сочный дисплей. Работает быстро без лагов. Камеры хорошие. Полностью оправдывает свою стоимость. Хороший телефон за небольшие деньги, разве что держать в руке не очень удобно из-за больших размеров."
+- ID: "cc8ad914-4596-445f-b7b7-ffcc34ee7d5f"
+  Hint: Date
+  Value: 20200301T202400Z
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T150609Z

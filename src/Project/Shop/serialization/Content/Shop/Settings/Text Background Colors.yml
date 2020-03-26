@@ -1,0 +1,25 @@
+﻿---
+ID: "8c101e9f-b746-4b92-b9e8-85274c930a27"
+Parent: "abf2fbc8-e624-42cd-be88-2b1d640c697a"
+Template: "c2ee0ff6-6497-4920-b24c-932f491e9bc8"
+Path: /sitecore/content/Shop/Settings/Text Background Colors
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T115134Z
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200314T170407Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

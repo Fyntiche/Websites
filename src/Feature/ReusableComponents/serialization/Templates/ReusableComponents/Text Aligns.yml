@@ -1,0 +1,18 @@
+﻿---
+ID: "401ff5f5-ac6b-4f48-be58-ec7af6d24854"
+Parent: "844b55ca-c718-447b-a473-a92849583f06"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/ReusableComponents/Text Aligns
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/text.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T114420Z

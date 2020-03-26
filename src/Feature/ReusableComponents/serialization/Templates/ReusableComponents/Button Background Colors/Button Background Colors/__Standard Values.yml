@@ -1,0 +1,23 @@
+﻿---
+ID: "f1c1a817-770b-4b04-8571-70154973d56c"
+Parent: "8cd230eb-3b1b-4b3d-8db8-fa36125aa99f"
+Template: "8cd230eb-3b1b-4b3d-8db8-fa36125aa99f"
+Path: /sitecore/templates/Feature/ReusableComponents/Button Background Colors/Button Background Colors/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{32B2EBCA-2D41-4DF7-BA75-B8B8D67F0383}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200226T111332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

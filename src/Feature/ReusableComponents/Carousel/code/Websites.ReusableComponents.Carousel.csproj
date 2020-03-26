@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Carousel\Index.cshtml" />
+    <Content Include="App_Config\Include\Feature\ReusableComponent\Feature.ReusableComponents.Carousel.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />

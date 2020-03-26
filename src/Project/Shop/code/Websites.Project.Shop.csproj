@@ -2763,6 +2763,7 @@
     <Content Include="App_Config\Include\z.Shop.Solr.CustomIndex.Master.config" />
     <Content Include="App_Config\Include\z.Shop.Solr.CustomIndex.Web.config" />
     <Content Include="App_Config\Include\z.Shop.Sitecore.config" />
+    <Content Include="App_Config\Include\Project\Project.Shop.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="ShopScripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ShopScripts\jquery-1.10.2.js" />

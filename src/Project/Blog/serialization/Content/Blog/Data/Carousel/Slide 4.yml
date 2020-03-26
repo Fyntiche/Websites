@@ -1,0 +1,19 @@
+﻿---
+ID: "6e63589a-05a3-4aaf-b8f5-91a1534e39ed"
+Parent: "46df0102-400d-4747-9834-f6679748d3ab"
+Template: "70e1841e-0cc1-4855-b658-e60529276fe9"
+Path: /sitecore/content/Blog/Data/Carousel/Slide 4
+DB: master
+SharedFields:
+- ID: "0e5c2190-7c3d-42df-8864-a6f7dfb42815"
+  Hint: Image
+  Value: |
+    <image mediaid="{E3212A96-FF5A-482C-AC9B-69FDD114A177}" alt="Image" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200316T163800Z
